@@ -1,0 +1,653 @@
+{
+    "items": [
+        {
+            "label": "PIZZE",
+            "backColor": "yellow"
+        },
+        {
+            "label": "SALADS",
+            "backColor": "pink"
+        },
+        {
+            "label": "SHAKE/\nSPIDER\n ICED",
+            "backColor": "yellow"
+        },
+        {
+            "label": "JUICE\n FRESH",
+            "backColor": "yellow"
+        },
+        {
+            "label": "VOID\n ITEM",
+            "backColor": "red",
+            "textColor": "white"
+        },
+        {
+            "label": "PANINI",
+            "backColor": "green"
+        },
+        {
+            "label": "PASTA",
+            "backColor": "pink"
+        },
+        {
+            "label": "SAN\n PELL",
+            "backColor": "yellow"
+        },
+        {
+            "label": "ALCOHOL",
+            "backColor": "purple"
+        },
+        {
+            "label": "CANCEL",
+            "backColor": "red",
+            "textColor": "white"
+        },
+        {
+            "label": "FOCA\nCCIA",
+            "backColor": "green",
+            "items": [
+                {
+                    "label": "FARCITA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "POLLO",
+                    "backColor": "green"
+                },
+                {
+                    "label": "PIADINA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "TURKEY\n BAGEL",
+                    "backColor": "green"
+                },
+                {
+                    "label": "CHICKEN\n BAGU\nETTE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "RUST\nICONE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SALMON\n BRIOCHE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BLT",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SALAMI\n BAG",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BUFFALO\n BRUSCHE\nTTA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "HCT\n TOSTONI",
+                    "backColor": "green"
+                },
+                {
+                    "label": "MUSHROO\nM\n TOSTONI",
+                    "backColor": "green"
+                },
+                {
+                    "label": "ORTO\nLANA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "CESAR\n WRAP",
+                    "backColor": "green"
+                },
+                {
+                    "label": "MUSHROO\nM BRUSC\nETTA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BUFFALO\n BAGU\nETTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "HAM BAG\nUETTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SALMON\n BAGEL",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "STEAK S\nANDW\nIDCH",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "PUMPKIN\n BRUSCHE\nTTA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "EGG\n BACON\n BRIOCHE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "EGG\n CHEESE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "STAZION\nE\n BURGER",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "HAM &\n CHEESE\n TOASTY",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CHEESE\n & TOM\n TOASTY",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "HAM &\n TOM\n TOASTY",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "HCT\n TOASTY",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CHEESE\n TOASTY",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FOOD INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
+        },
+        {
+            "label": "PASTRY\n DRY/DAN\nISH",
+            "backColor": "blue"
+        },
+        {
+            "label": "SPLIT\n ROCK",
+            "backColor": "yellow"
+        },
+        {
+            "label": "$100",
+            "backColor": "money",
+            "textColor": "white"
+        },
+        {
+            "label": "$10",
+            "backColor": "money",
+            "textColor": "white"
+        },
+        {
+            "label": "SURC\nHARGE",
+            "backColor": "green"
+        },
+        {
+            "label": "BISC\nOTTI",
+            "backColor": "blue"
+        },
+        {
+            "label": "JUICE/\nGRANITA",
+            "backColor": "yellow"
+        },
+        {
+            "label": "$50",
+            "backColor": "money",
+            "textColor": "white"
+        },
+        {
+            "label": "$5",
+            "backColor": "money",
+            "textColor": "white"
+        },
+        {
+            "label": "",
+            "backColor": "green"
+        },
+        {
+            "label": "PASTRY\n COLD",
+            "backColor": "blue"
+        },
+        {
+            "label": "COFFEE",
+            "backColor": "yellow",
+            "items": [
+                {
+                    "label": "CAPPUCC\nINO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CAFE\n LATTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FLAT\n WHITE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ESPR\nESSO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "LONG\n BLACK",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "HOT CHO\nCOLATE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "LONG/MA\nCCH",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ESPR/MA\nCCH",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "BABY\nCINO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "BABY CH\nOCOLATE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "MOCCA\n LATTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "MOCCA C\nAPPU\nCCINO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "LONG\n BLACK\n WITH",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "DOUBLE\n ESPR\nESSO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CAFE\n FREDDO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "WHITE\n HOT CHO\nCOLATE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "HOT\n WATER",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "MATCHA\n LATTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "MAGIC",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ITALIAN\n HOT\n CHOC",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ICE\n LATTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "DIRTY\n CHAI",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "PICCOLO\n LATTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "TUMERIC\n LATTE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CHAI",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "STRONG",
+                    "backColor": "white"
+                },
+                {
+                    "label": "VERY\n STRONG",
+                    "backColor": "white"
+                },
+                {
+                    "label": "WEAK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "ALMOND\n MILK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "SOY",
+                    "backColor": "white"
+                },
+                {
+                    "label": "DECAF",
+                    "backColor": "white"
+                },
+                {
+                    "label": "SKIM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HOT\n MILK\n SIDE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "COLD\n MILK\n SIDE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "COCONUT\n MILK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HOT",
+                    "backColor": "white"
+                },
+                {
+                    "label": "MEDIUM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "LARGE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "white",
+                    "span": 2,
+                    "items": [
+                        {
+                            "label": "WARM",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "WITH\n ICE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "COLD\n WATER\n SIDE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "HOT\n WATER\n SIDE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "BLACK",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "WITH\n LEMON",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "BYO CUP",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "LATER",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "MINT",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "NO CHOC\nOLATE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "IN CUP",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "NO ICE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "IN A\n GLASS",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "ONE\n SUGAR",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "TWO\n SUGER",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "W/CHOC\n SPRINKL\nE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "ONE\n EQUAL",
+                            "backColor": "white",
+                            "keywords": [
+                                "SUGAR"
+                            ]
+                        },
+                        {
+                            "label": "TWO\n EQUAL",
+                            "backColor": "white",
+                            "keywords": [
+                                "SUGAR"
+                            ]
+                        },
+                        {
+                            "label": "ONE &\n HALF\n SUGAR",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "THREE\n SUGARS",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "HAZELNU\nT SYRUP",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "VANILLA\n SYRUP",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "CARAMEL\n SYRUP",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "#\n GLASSES",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "LARGE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "3/4",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "HALF\n MILK",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "TA",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "OATS\n MILK",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "NO\n FROTH",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "W/ CINN\nAMON\n ONTOP",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "SOY",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "NO MARS\nHMELLO",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "WITH MA\nRSHM\nELLO",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "HALF\n SUGAR",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "HONEY",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "XTRA\n CHOC!",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "NO CINN\nAMON",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "LACTOSE\n FREE",
+                            "backColor": "white"
+                        },
+                        {
+                            "label": "RAW\n SUGAR",
+                            "backColor": "white"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "label": "$20",
+            "backColor": "money",
+            "textColor": "white"
+        },
+        {
+            "label": "STAFF D\nISCOUNT",
+            "backColor": "red",
+            "textColor": "white"
+        },
+        {
+            "label": "FRIT/QU\nICHE\n/ARAN",
+            "backColor": "brown"
+        },
+        {
+            "label": "CAKES",
+            "backColor": "blue"
+        },
+        {
+            "label": "TEA",
+            "backColor": "yellow"
+        },
+        {
+            "label": "TA",
+            "backColor": "pink"
+        },
+        {
+            "label": "RECEIPT",
+            "backColor": "yellow"
+        },
+        {
+            "label": "TOAST/\nCROISS",
+            "backColor": "brown"
+        },
+        {
+            "label": "SMOOTH/\nMILK",
+            "backColor": "blue"
+        },
+        {
+            "label": "INSTRUC\nTIONS",
+            "backColor": "white"
+        },
+        {
+            "label": "TABLE",
+            "backColor": "green",
+            "span": 2
+        },
+        {
+            "label": "EMPL\nOYEE1",
+            "backColor": "gray"
+        },
+        {
+            "label": "OTHER F\nUNCT\nIONS",
+            "backColor": "money",
+            "textColor": "white"
+        },
+        {
+            "label": "MERCHAN\nDISE",
+            "backColor": "pink"
+        },
+        {
+            "label": "NEW\n BALANCE",
+            "backColor": "green",
+            "span": 2
+        }
+    ]
+}

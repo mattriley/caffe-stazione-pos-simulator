@@ -1,0 +1,18 @@
+.path {
+    margin-top: 5px;
+    cursor: pointer;
+}
+  
+.path-segment {
+    padding: 5px;
+    display: inline-block;
+}
+
+.keyword {
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: small;
+}
+  

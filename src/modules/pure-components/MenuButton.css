@@ -1,0 +1,86 @@
+@keyframes blinker {
+    50% {
+      opacity: .1;
+    }
+}  
+
+.menu-button.selected-true {
+    animation: blinker 1s linear infinite !important;
+}
+
+.menu-button.span-1 {
+    width: 90px;
+    width: 45px;
+    width: 60px;
+}
+
+.menu-button.span-2 {
+    width: 184px;
+    width: 94px;
+    width: 124px;
+}
+
+.menu-button {    
+    height: 75px;
+    height: 40px;
+    height: 55px;
+    margin: 2px;
+    font-size: 15px;
+    font-size: .4em;
+    font-size: 9px;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+    font-weight: bold;
+};
+
+
+
+.text-color-black {
+    color: black;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.back-color-yellow {
+    background-color: rgb(209 201 46);
+}
+
+.back-color-pink {
+    background-color: rgb(191 111 208);
+}
+
+.back-color-red {
+    background-color: rgb(144 48 32);
+}
+
+.back-color-green {
+    background-color: rgb(94 169 35);
+}
+
+.back-color-purple {
+    background-color: rgb(58 0 182);
+}
+
+.back-color-blue {
+    background-color: rgb(19 74 176);
+}
+
+.back-color-money {
+    background-color: rgb(17 7 186);
+}
+
+.back-color-orange {
+    background-color: rgb(161 124 59);
+}
+
+.back-color-white {
+    background-color: rgb(237 229 217);
+}
+
+.back-color-gray {
+    background-color: rgb(183 178 170);
+}

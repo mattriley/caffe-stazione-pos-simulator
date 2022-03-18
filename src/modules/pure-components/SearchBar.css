@@ -1,0 +1,19 @@
+.search-bar {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.search-box {
+    padding: 0 80px;
+}
+
+.search-box input {
+    border: solid 2px rgb(19 34 98)	;
+    width: 100%;
+    font-size: 2em;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+}
+    
