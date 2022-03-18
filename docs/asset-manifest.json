@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "caffe-stazione-simulator/static/css/main.bd57c726.css",
-    "main.js": "caffe-stazione-simulator/static/js/main.e64a9d84.js",
-    "static/js/787.15219f9c.chunk.js": "caffe-stazione-simulator/static/js/787.15219f9c.chunk.js",
-    "index.html": "caffe-stazione-simulator/index.html",
-    "main.bd57c726.css.map": "caffe-stazione-simulator/static/css/main.bd57c726.css.map",
-    "main.e64a9d84.js.map": "caffe-stazione-simulator/static/js/main.e64a9d84.js.map",
-    "787.15219f9c.chunk.js.map": "caffe-stazione-simulator/static/js/787.15219f9c.chunk.js.map"
+    "main.css": "/caffe-stazione-simulator/static/css/main.bd57c726.css",
+    "main.js": "/caffe-stazione-simulator/static/js/main.57beb847.js",
+    "static/js/787.15219f9c.chunk.js": "/caffe-stazione-simulator/static/js/787.15219f9c.chunk.js",
+    "index.html": "/caffe-stazione-simulator/index.html",
+    "main.bd57c726.css.map": "/caffe-stazione-simulator/static/css/main.bd57c726.css.map",
+    "main.57beb847.js.map": "/caffe-stazione-simulator/static/js/main.57beb847.js.map",
+    "787.15219f9c.chunk.js.map": "/caffe-stazione-simulator/static/js/787.15219f9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd57c726.css",
-    "static/js/main.e64a9d84.js"
+    "static/js/main.57beb847.js"
   ]
 }
