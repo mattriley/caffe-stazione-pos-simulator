@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const SearchScreen = ({ pureComponents, services }) => {
 
-    const [searchResults, setSearchResults] = useState([]);
+    const [searchResults, setSearchResults] = useState(services.searchMenu(''));
     const [selectedItem, setSelectedItem] = useState(undefined);
 
     const onSearch = term => {
