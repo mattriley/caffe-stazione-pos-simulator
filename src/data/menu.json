@@ -2840,7 +2840,166 @@
         },
         {
             "label": "CAKES",
-            "backColor": "blue"
+            "backColor": "blue",
+            "items": [
+                {
+                    "label": "WAFFLES",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "MUESLI",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "FRESH\n FRUIT",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "150G\n COFFEE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "TUMERI\nC\n BOTTLE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "CHOC PA\nNETTONE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "FRIUT P\nANET\nTONE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "CUSTARD\n PANE\nTTONE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FOOD INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "TEA",
