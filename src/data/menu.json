@@ -917,7 +917,166 @@
         },
         {
             "label": "FRIT/QU\nICHE\n/ARAN",
-            "backColor": "brown"
+            "backColor": "brown",
+            "items": [
+                {
+                    "label": "ARANCIN\nI\nW/SALAD",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "FRITTAT\nA/SALAD",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "CALZONE\n W/SALAD",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "QUICHE/\nSALAD",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "SAUSAGE\n ROLL\n W/SALAD",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "FRIT\nTATA",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "QUICHE",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "SAUSAGE\n ROLL",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "PASTA F\nRITTATA",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "PIE",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "PIE\n WITH\n SALAD",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "SP/RIC\nFILO/SA\nLAD",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SP/RIC\n FILO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "PASTIE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "PASTIE\n SALAD",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRUIT\n SALAD",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FOOT INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "CAKES",

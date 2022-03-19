@@ -74,7 +74,7 @@
 }
 
 .back-color-orange {
-    background-color: rgb(161 124 59);
+    background-color: rgb(186	119	51	);
 }
 
 .back-color-white {
@@ -83,4 +83,8 @@
 
 .back-color-gray {
     background-color: rgb(183 178 170);
+}
+
+.back-color-brown {
+    background-color: rgb(152 119 54);
 }
