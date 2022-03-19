@@ -7,6 +7,8 @@ const SearchResults = ({ pureComponents, menu }) => ({ items, onSelection, selec
         return <pureComponents.MenuPath item={item} onClick={() => onSelection(item)} />
     });
 
+    // todo: if one result, center it...
+
     return <div className="search-results">{searchResults}</div>
 };
 
