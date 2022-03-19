@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./docs' PUBLIC_URL='/simu-stazione' react-scripts build",
+    "build": "react-scripts build",
+    "deploy": "BUILD_PATH='./docs' PUBLIC_URL='/simu-stazione' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
