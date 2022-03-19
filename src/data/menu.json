@@ -3003,7 +3003,166 @@
         },
         {
             "label": "TEA",
-            "backColor": "yellow"
+            "backColor": "yellow",
+            "items": [
+                {
+                    "label": "ENG\n B'FAST\n TEA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "EARL\n GREY\n TEA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CHAI\n TEA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "COLD\n BREW",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ICED/TE\nA/LEMON",
+                    "backColor": "green"
+                },
+                {
+                    "label": "ICED/TE\nA/PEACH",
+                    "backColor": "green"
+                },
+                {
+                    "label": "NUTELLA\n HOT\n CHOC",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CHAM\nOMILE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "LEMON\n GRASS &\n GINGER",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "PEPPERM\nINT",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "GREEN\n TEA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "STRONG",
+                    "backColor": "white"
+                },
+                {
+                    "label": "VERY\n STRONG",
+                    "backColor": "white"
+                },
+                {
+                    "label": "WEAK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "ALMOND\n MILK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "SOY",
+                    "backColor": "white"
+                },
+                {
+                    "label": "DECAF",
+                    "backColor": "white"
+                },
+                {
+                    "label": "SKIM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HOT\n MILK\n SIDE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "COLD\n MILK\n SIDE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "MADE\n WITH\n MILK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HOT",
+                    "backColor": "white"
+                },
+                {
+                    "label": "MEDIUM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "LARGE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "TA",
