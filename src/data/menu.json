@@ -656,7 +656,8 @@
         {
             "label": "VOID\n ITEM",
             "backColor": "red",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "PANINI",
@@ -1653,16 +1654,19 @@
         {
             "label": "$100",
             "backColor": "money",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "$10",
             "backColor": "money",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "SURC\nHARGE",
-            "backColor": "green"
+            "backColor": "green",
+            "items": []
         },
         {
             "label": "BISC\nOTTI",
