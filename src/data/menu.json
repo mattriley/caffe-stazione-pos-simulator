@@ -1096,7 +1096,166 @@
         },
         {
             "label": "TOAST/\nCROISS",
-            "backColor": "brown"
+            "backColor": "brown",
+            "items": [
+                {
+                    "label": "HAM/\nCHEESE\nCROIS",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "PLAIN C\nROSAINT",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "CHEESE/\nTOMATO\n CROISS",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "TOM/CHE\n/HAM CR\nOISSAN",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "TOAST",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "1 SLICE\n S/D\n TOAST",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "FRUIT\n TOAST",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "1 SLICE\n F/TOAST",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "BREAD\n LOAF",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "",
+                    "backColor": "orange"
+                },
+                {
+                    "label": "BUTTER",
+                    "backColor": "white"
+                },
+                {
+                    "label": "VEGE\nMITE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HONEY",
+                    "backColor": "white"
+                },
+                {
+                    "label": "STRAWBE\nRRY JAM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "APRICOT\n JAM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "",
+                    "backColor": "white"
+                },
+                {
+                    "label": "",
+                    "backColor": "white"
+                },
+                {
+                    "label": "",
+                    "backColor": "white"
+                },
+                {
+                    "label": "FOOD INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "SMOOTH/\nMILK",
