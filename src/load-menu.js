@@ -19,8 +19,11 @@ const loadMenu = () => {
     const rowSpan = 5;
 
     const transformMenuBetter = (menu, path = []) => {
-        const items = menu.items?.map(item => {
+        const items = menu.items?.flatMap(item => {
             const key = item.label.replaceAll('\n', '');
+
+            if (!key) return [];
+
             item.labelSingleLine = key;
             const newPath = path.concat(key);
 
