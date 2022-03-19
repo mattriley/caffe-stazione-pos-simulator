@@ -1,6 +1,177 @@
 {
     "items": [
         {
+            "label": "BEV INST",
+            "items": [
+                {
+                    "label": "WARM",
+                    "backColor": "white"
+                },
+                {
+                    "label": "WITH\n ICE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "COLD\n WATER\n SIDE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HOT\n WATER\n SIDE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "BLACK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "WITH\n LEMON",
+                    "backColor": "white"
+                },
+                {
+                    "label": "BYO CUP",
+                    "backColor": "white"
+                },
+                {
+                    "label": "LATER",
+                    "backColor": "white"
+                },
+                {
+                    "label": "MINT",
+                    "backColor": "white"
+                },
+                {
+                    "label": "NO CHOC\nOLATE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "IN CUP",
+                    "backColor": "white"
+                },
+                {
+                    "label": "NO ICE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "IN A\n GLASS",
+                    "backColor": "white"
+                },
+                {
+                    "label": "ONE\n SUGAR",
+                    "backColor": "white"
+                },
+                {
+                    "label": "TWO\n SUGER",
+                    "backColor": "white"
+                },
+                {
+                    "label": "W/CHOC\n SPRINKL\nE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "ONE\n EQUAL",
+                    "backColor": "white",
+                    "keywords": [
+                        "SUGAR"
+                    ]
+                },
+                {
+                    "label": "TWO\n EQUAL",
+                    "backColor": "white",
+                    "keywords": [
+                        "SUGAR"
+                    ]
+                },
+                {
+                    "label": "ONE &\n HALF\n SUGAR",
+                    "backColor": "white"
+                },
+                {
+                    "label": "THREE\n SUGARS",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HAZELNU\nT SYRUP",
+                    "backColor": "white"
+                },
+                {
+                    "label": "VANILLA\n SYRUP",
+                    "backColor": "white"
+                },
+                {
+                    "label": "CARAMEL\n SYRUP",
+                    "backColor": "white"
+                },
+                {
+                    "label": "#\n GLASSES",
+                    "backColor": "white"
+                },
+                {
+                    "label": "LARGE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "3/4",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HALF\n MILK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "TA",
+                    "backColor": "white"
+                },
+                {
+                    "label": "OATS\n MILK",
+                    "backColor": "white"
+                },
+                {
+                    "label": "NO\n FROTH",
+                    "backColor": "white"
+                },
+                {
+                    "label": "W/ CINN\nAMON\n ONTOP",
+                    "backColor": "white"
+                },
+                {
+                    "label": "SOY",
+                    "backColor": "white"
+                },
+                {
+                    "label": "NO MARS\nHMELLO",
+                    "backColor": "white"
+                },
+                {
+                    "label": "WITH MA\nRSHM\nELLO",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HALF\n SUGAR",
+                    "backColor": "white"
+                },
+                {
+                    "label": "HONEY",
+                    "backColor": "white"
+                },
+                {
+                    "label": "XTRA\n CHOC!",
+                    "backColor": "white"
+                },
+                {
+                    "label": "NO CINN\nAMON",
+                    "backColor": "white"
+                },
+                {
+                    "label": "LACTOSE\n FREE",
+                    "backColor": "white"
+                },
+                {
+                    "label": "RAW\n SUGAR",
+                    "backColor": "white"
+                }
+            ]
+        },
+        {
             "label": "HOME",
             "items": [
                 {
@@ -2494,175 +2665,7 @@
                         {
                             "label": "BEV INST",
                             "backColor": "white",
-                            "span": 2,
-                            "items": [
-                                {
-                                    "label": "WARM",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "WITH\n ICE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "COLD\n WATER\n SIDE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "HOT\n WATER\n SIDE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "BLACK",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "WITH\n LEMON",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "BYO CUP",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "LATER",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "MINT",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "NO CHOC\nOLATE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "IN CUP",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "NO ICE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "IN A\n GLASS",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "ONE\n SUGAR",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "TWO\n SUGER",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "W/CHOC\n SPRINKL\nE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "ONE\n EQUAL",
-                                    "backColor": "white",
-                                    "keywords": [
-                                        "SUGAR"
-                                    ]
-                                },
-                                {
-                                    "label": "TWO\n EQUAL",
-                                    "backColor": "white",
-                                    "keywords": [
-                                        "SUGAR"
-                                    ]
-                                },
-                                {
-                                    "label": "ONE &\n HALF\n SUGAR",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "THREE\n SUGARS",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "HAZELNU\nT SYRUP",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "VANILLA\n SYRUP",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "CARAMEL\n SYRUP",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "#\n GLASSES",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "LARGE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "3/4",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "HALF\n MILK",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "TA",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "OATS\n MILK",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "NO\n FROTH",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "W/ CINN\nAMON\n ONTOP",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "SOY",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "NO MARS\nHMELLO",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "WITH MA\nRSHM\nELLO",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "HALF\n SUGAR",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "HONEY",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "XTRA\n CHOC!",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "NO CINN\nAMON",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "LACTOSE\n FREE",
-                                    "backColor": "white"
-                                },
-                                {
-                                    "label": "RAW\n SUGAR",
-                                    "backColor": "white"
-                                }
-                            ]
+                            "span": 2
                         }
                     ]
                 },
@@ -3535,177 +3538,6 @@
                     "backColor": "green",
                     "span": 2,
                     "items": []
-                }
-            ]
-        },
-        {
-            "label": "BEV INST",
-            "items": [
-                {
-                    "label": "WARM",
-                    "backColor": "white"
-                },
-                {
-                    "label": "WITH\n ICE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "COLD\n WATER\n SIDE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "HOT\n WATER\n SIDE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "BLACK",
-                    "backColor": "white"
-                },
-                {
-                    "label": "WITH\n LEMON",
-                    "backColor": "white"
-                },
-                {
-                    "label": "BYO CUP",
-                    "backColor": "white"
-                },
-                {
-                    "label": "LATER",
-                    "backColor": "white"
-                },
-                {
-                    "label": "MINT",
-                    "backColor": "white"
-                },
-                {
-                    "label": "NO CHOC\nOLATE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "IN CUP",
-                    "backColor": "white"
-                },
-                {
-                    "label": "NO ICE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "IN A\n GLASS",
-                    "backColor": "white"
-                },
-                {
-                    "label": "ONE\n SUGAR",
-                    "backColor": "white"
-                },
-                {
-                    "label": "TWO\n SUGER",
-                    "backColor": "white"
-                },
-                {
-                    "label": "W/CHOC\n SPRINKL\nE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "ONE\n EQUAL",
-                    "backColor": "white",
-                    "keywords": [
-                        "SUGAR"
-                    ]
-                },
-                {
-                    "label": "TWO\n EQUAL",
-                    "backColor": "white",
-                    "keywords": [
-                        "SUGAR"
-                    ]
-                },
-                {
-                    "label": "ONE &\n HALF\n SUGAR",
-                    "backColor": "white"
-                },
-                {
-                    "label": "THREE\n SUGARS",
-                    "backColor": "white"
-                },
-                {
-                    "label": "HAZELNU\nT SYRUP",
-                    "backColor": "white"
-                },
-                {
-                    "label": "VANILLA\n SYRUP",
-                    "backColor": "white"
-                },
-                {
-                    "label": "CARAMEL\n SYRUP",
-                    "backColor": "white"
-                },
-                {
-                    "label": "#\n GLASSES",
-                    "backColor": "white"
-                },
-                {
-                    "label": "LARGE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "3/4",
-                    "backColor": "white"
-                },
-                {
-                    "label": "HALF\n MILK",
-                    "backColor": "white"
-                },
-                {
-                    "label": "TA",
-                    "backColor": "white"
-                },
-                {
-                    "label": "OATS\n MILK",
-                    "backColor": "white"
-                },
-                {
-                    "label": "NO\n FROTH",
-                    "backColor": "white"
-                },
-                {
-                    "label": "W/ CINN\nAMON\n ONTOP",
-                    "backColor": "white"
-                },
-                {
-                    "label": "SOY",
-                    "backColor": "white"
-                },
-                {
-                    "label": "NO MARS\nHMELLO",
-                    "backColor": "white"
-                },
-                {
-                    "label": "WITH MA\nRSHM\nELLO",
-                    "backColor": "white"
-                },
-                {
-                    "label": "HALF\n SUGAR",
-                    "backColor": "white"
-                },
-                {
-                    "label": "HONEY",
-                    "backColor": "white"
-                },
-                {
-                    "label": "XTRA\n CHOC!",
-                    "backColor": "white"
-                },
-                {
-                    "label": "NO CINN\nAMON",
-                    "backColor": "white"
-                },
-                {
-                    "label": "LACTOSE\n FREE",
-                    "backColor": "white"
-                },
-                {
-                    "label": "RAW\n SUGAR",
-                    "backColor": "white"
                 }
             ]
         }

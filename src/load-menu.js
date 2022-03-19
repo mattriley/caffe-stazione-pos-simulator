@@ -18,11 +18,24 @@ const loadMenu = () => {
     const allItems = [];
     const rowSpan = 5;
 
+    let bevInst;
+
     const transformMenuBetter = (menu, path = []) => {
-        const items = menu.items?.map(item => {
+        const items = menu.items?.flatMap(item => {
             const key = item.label.replaceAll('\n', '');
 
-            // if (!key) return [];
+            const pathStr = path.concat(key).join('.');
+
+            if (pathStr === 'BEV INST') {
+                bevInst = item;
+                console.log({ bevInst });
+                return [];
+            }
+
+            if (pathStr.endsWith('.BEV INST')) {
+                // console.log(bevInst);
+                item.items = bevInst.items;
+            }
 
             item.labelSingleLine = key;
             const newPath = path.concat(key);
