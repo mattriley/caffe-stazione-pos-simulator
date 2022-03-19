@@ -991,7 +991,166 @@
         },
         {
             "label": "ALCOHOL",
-            "backColor": "purple"
+            "backColor": "purple",
+            "items": [
+                {
+                    "label": "SCOTCH",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "WISKEY",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "VODKA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "BOURBON",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "BRANDY",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "CAMPARI\n/WINE",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "GRAPPA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "MONTENE\nGRO",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "AVERNA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "SAMB\nUCCA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "APEROL",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "TANQ\nUERAY",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "PURE\nBLONDE",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "PERONI",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "CORONA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "STELLA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "ESPRESS\nO\nMARTINI",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "ESPRESS\nO\nMARTINI",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "MIMOSA",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "STRAW\n GIN\n TONIC",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "GIN\n SECCO",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "APEROL\n SPIRITS",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "MOSCATO",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "PINAP\n DAQUIRI",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "CHARDON\nNAY\n GLASS",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "SHIRAZ\n GLASS",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "PROS\nECCO",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "MOSCATO",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "CHARDON\nNAY\n BOTTLE",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "SHIRAZ\n BOTTLE",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "",
+                    "backColor": "purple"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "CANCEL",
