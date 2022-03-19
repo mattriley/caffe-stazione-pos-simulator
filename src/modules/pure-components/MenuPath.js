@@ -4,6 +4,7 @@ import _ from 'lodash';
 const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
+    if (item.items) return null;
 
     const pathIncrements = lib.inflate(item.pathArray);
     pathIncrements.shift(); // remove ["HOME"]
@@ -12,7 +13,7 @@ const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {
         const fullPath = path.flatMap(p => ['tree', p]);
 
         if (!_.get(menu.tree, fullPath)) {
-            console.log({ fullPath });
+            // console.log({ fullPath });
         }
 
         const { labelSingleLine, backColor, textColor } = _.get(menu.tree, fullPath);
