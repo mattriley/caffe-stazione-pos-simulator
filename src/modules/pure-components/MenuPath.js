@@ -3,6 +3,8 @@ import _ from 'lodash';
 
 const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {
 
+    if (!item.labelSingleLine) return null;
+
     const pathIncrements = lib.inflate(item.pathArray);
     pathIncrements.shift(); // remove ["HOME"]
 
