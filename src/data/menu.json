@@ -27,7 +27,166 @@
         },
         {
             "label": "PASTA",
-            "backColor": "pink"
+            "backColor": "pink",
+            "items": [
+                {
+                    "label": "ZUPPA",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "LASAGNA",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "CANN\nELONI",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "POLPETE",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "MEL\nPARMA",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "GNOCCHI",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "RAVIOLI\n NUDI",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "BRODO",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "TAGLIAT\nELLE\n RAGU",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "TAGLIAT\nELLE\n NAPOLI",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "pink"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FOOD INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "SAN\n PELL",
