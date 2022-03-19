@@ -1,10 +1,10 @@
 .path {
-    margin-top: 5px;
+    margin-top: 20px;
     cursor: pointer;
 }
   
 .path-segment {
-    padding: 5px;
+    padding: 10px 15px;
     display: inline-block;
 }
 
