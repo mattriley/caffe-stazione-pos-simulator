@@ -1679,12 +1679,14 @@
         {
             "label": "$50",
             "backColor": "money",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "$5",
             "backColor": "money",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "",
@@ -2187,12 +2189,14 @@
         {
             "label": "$20",
             "backColor": "money",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "STAFF D\nISCOUNT",
             "backColor": "red",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "FRIT/QU\nICHE\n/ARAN",
@@ -2367,11 +2371,13 @@
         },
         {
             "label": "TA",
-            "backColor": "pink"
+            "backColor": "pink",
+            "items": []
         },
         {
             "label": "RECEIPT",
-            "backColor": "yellow"
+            "backColor": "yellow",
+            "items": []
         },
         {
             "label": "TOAST/\nCROISS",
@@ -2542,30 +2548,36 @@
         },
         {
             "label": "INSTRUC\nTIONS",
-            "backColor": "white"
+            "backColor": "white",
+            "items": []
         },
         {
             "label": "TABLE",
             "backColor": "green",
-            "span": 2
+            "span": 2,
+            "items": []
         },
         {
             "label": "EMPL\nOYEE1",
-            "backColor": "gray"
+            "backColor": "gray",
+            "items": []
         },
         {
             "label": "OTHER F\nUNCT\nIONS",
             "backColor": "money",
-            "textColor": "white"
+            "textColor": "white",
+            "items": []
         },
         {
             "label": "MERCHAN\nDISE",
-            "backColor": "pink"
+            "backColor": "pink",
+            "items": []
         },
         {
             "label": "NEW\n BALANCE",
             "backColor": "green",
-            "span": 2
+            "span": 2,
+            "items": []
         }
     ]
 }
