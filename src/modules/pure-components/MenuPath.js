@@ -18,8 +18,11 @@ const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {
         }
 
         const { labelSingleLine, backColor, textColor } = _.get(menu.tree, fullPath);
+        // const label = { __html: labelSingleLine.length ? labelSingleLine : '&nbsp;&nbsp;&nbsp;' };
+        const label = { __html: labelSingleLine.length ? labelSingleLine : '(BLANK)' };
+
         const className = `path-segment back-color-${backColor} text-color-${textColor}`.toLowerCase();
-        return <span className={className}>{labelSingleLine}</span>
+        return <span className={className} dangerouslySetInnerHTML={label} />
     });
 
     const isPenultimate = i => i === pathItems.length - 1;
