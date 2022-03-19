@@ -660,7 +660,8 @@
         },
         {
             "label": "PANINI",
-            "backColor": "green"
+            "backColor": "green",
+            "items": []
         },
         {
             "label": "PASTA",

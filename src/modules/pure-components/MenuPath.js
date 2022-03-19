@@ -5,6 +5,7 @@ const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
     if (item.items) return null;
+    // if (!item.items.length) return;
 
     const pathIncrements = lib.inflate(item.pathArray);
     pathIncrements.shift(); // remove ["HOME"]
