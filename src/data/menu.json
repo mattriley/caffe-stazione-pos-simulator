@@ -3339,7 +3339,166 @@
         },
         {
             "label": "SMOOTH/\nMILK",
-            "backColor": "blue"
+            "backColor": "blue",
+            "items": [
+                {
+                    "label": "MANGO S\nMOOTHIE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "BANANA\n SMOOTHI\nE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "TROP\nICAL",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "SPECIAL\n TROP\nICAL",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "PINEAPP\nLE SMOO\nTHIE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "SMALL\n BANA\n SMOTHIE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "TROPICA\nL SMALL",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "SHEK\nERATO",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "NUTELLA",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "SM\n NUTELLA",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "GLS\n MILK",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "GLS\n CHOC\n MILK",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "GLS\n S'BERRY\n MILK",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "GLS\n VANILLA\n MILK",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "GLS\n CARAMEL\n MILK",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "PROTEIN\n SMOO\nTHIE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "PROTEIN\n SCOOP",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "ACAI SM\nOOTHIE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "VEGAN\n CHOC\n BANANA",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "GREEN\n SMOTHIE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "INSTRUC\nTIONS",
