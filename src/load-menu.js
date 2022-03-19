@@ -18,7 +18,7 @@ const loadMenu = () => {
     const allItems = [];
     const rowSpan = 5;
 
-    let bevInst;
+    let bevInst, foodInst;
 
     const transformMenuBetter = (menu, path = []) => {
         const items = menu.items?.flatMap(item => {
@@ -28,13 +28,20 @@ const loadMenu = () => {
 
             if (pathStr === 'BEV INST') {
                 bevInst = item;
-                console.log({ bevInst });
                 return [];
             }
 
             if (pathStr.endsWith('.BEV INST')) {
-                // console.log(bevInst);
                 item.items = bevInst.items;
+            }
+
+            if (pathStr === 'FOOD INST') {
+                foodInst = item;
+                return [];
+            }
+
+            if (pathStr.endsWith('.FOOD INST')) {
+                item.items = foodInst.items;
             }
 
             item.labelSingleLine = key;
