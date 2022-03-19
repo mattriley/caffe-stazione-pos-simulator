@@ -387,8 +387,9 @@
                     "backColor": "green"
                 },
                 {
-                    "label": "D.COKE\n SPIDER",
-                    "backColor": "green"
+                    "label": "D COKE\n SPIDER",
+                    "backColor": "green",
+                    "comment": "should be D.COKE but dot interferes with path!!"
                 },
                 {
                     "label": "SQUASH\n SPIDER",
@@ -467,7 +468,7 @@
                     "backColor": "blue"
                 },
                 {
-                    "label": "SHEKERATO",
+                    "label": "SHEK\nERATO",
                     "backColor": "blue"
                 },
                 {
