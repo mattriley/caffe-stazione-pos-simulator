@@ -828,7 +828,166 @@
         },
         {
             "label": "SAN\n PELL",
-            "backColor": "yellow"
+            "backColor": "yellow",
+            "items": [
+                {
+                    "label": "LIMO\n NATA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CHIN\n OTTO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "POMP\nELMO",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ARANCIA\nTA\n ROSSA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ARAN\n CIATA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "LEMONLI\nME\n BITTERS",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "GINGER\n BEER",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "PASSION",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ICED\n TEA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "WATER\n MOUNT F",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "AQUA\n PANNA",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SPARKLI\nNG",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "LGE\n SPARK",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "COKE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "COKE\n ZERO",
+                    "backColor": "green"
+                },
+                {
+                    "label": "DIET\n COKE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "LIFT",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SPRITE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FANTA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "POWE\nRADE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "REDBULL",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "ALCOHOL",
