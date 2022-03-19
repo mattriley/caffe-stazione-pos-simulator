@@ -11,9 +11,15 @@
 
 .search-box input {
     border: solid 2px rgb(19 34 98)	;
-    width: 100%;
+    width: 80%;
     font-size: 2em;
     font-family: "Roboto Condensed";
     text-transform: uppercase;
 }
     
+.clear {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: rgb(19 34 98);
+    cursor: pointer;
+}
