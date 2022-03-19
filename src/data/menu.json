@@ -328,7 +328,166 @@
         },
         {
             "label": "SHAKE/\nSPIDER\n ICED",
-            "backColor": "yellow"
+            "backColor": "yellow",
+            "items": [
+                {
+                    "label": "CHOCOLA\nTE\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "S/BERRY\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "VANILLA\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CARAMEL\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "COFFEE\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SML\n CHOC\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SML\n S/BERRY\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SML\n VANILLA\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SML\n CARAMEL\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SML\n COFFEE\n M/SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "COKE\n SPIDER",
+                    "backColor": "green"
+                },
+                {
+                    "label": "LEMON\n SPIDER",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BLUE\n HEAVAN\n SMALL",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FANTA\n SPIDER",
+                    "backColor": "green"
+                },
+                {
+                    "label": "D.COKE\n SPIDER",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SQUASH\n SPIDER",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SML\n HEAVEN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SML\n BANANA",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BLUE\n HEAVEN\n SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "BANANA\n SHAKE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "ICED\n COFFEE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "ICED CH\nOCOLATE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "ICED\n CHAI",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "AFFO\nGATO",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "ICE\n MOCCA",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "ONE\n SCOOP\n ICE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "TWO\n SCOOP\n ICE",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "688",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "EXTRA\n ICE\n CREAM",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "SHEKERATO",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "NUTELLA",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "SM\n NUTELLA",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "",
+                    "backColor": "blue"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "white",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "JUICE\n FRESH",
