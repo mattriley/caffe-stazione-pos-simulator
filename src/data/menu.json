@@ -492,7 +492,166 @@
         },
         {
             "label": "JUICE\n FRESH",
-            "backColor": "yellow"
+            "backColor": "yellow",
+            "items": [
+                {
+                    "label": "FRESH\n ORANGE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n APPLE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n PEAR",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n WMELON",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n TUTTI\n FRUTTI",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n OR/AP",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n AP/OR",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n PE/OR",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n WMLN/OR",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "GREEN\n JUICE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n JUICE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n JUICE\n LARGE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "SUMMER\n TIME\n JUICE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n OR/PEAR",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n AP/WMLN",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n PE/WMLN",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH\n WMLN/PE",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "CAR/AP/\nGINGER",
+                    "backColor": "yellow"
+                },
+                {
+                    "label": "FRESH O\nR/AP\n/PEAR",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH A\nP/OP\n/PEAR",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH P\nE/OR/AP",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH W\nMLN/OR/AP",
+                    "backColor": "green"
+                },
+                {
+                    "label": "SMALL",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH O\nR/AP\n/WMLN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH A\nP/OP\n/WMLN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH P\nE/AP\n/WMLN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH W\nMLN/\nOR/AP",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH O\nR/PE\n/WMLN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH A\nP/PE\n/WMLN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH P\nE/OR\n/WMLN",
+                    "backColor": "green"
+                },
+                {
+                    "label": "FRESH W\nMLN/\nAP/PE",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "",
+                    "backColor": "green"
+                },
+                {
+                    "label": "BEV INST",
+                    "backColor": "green",
+                    "span": 2
+                }
+            ]
         },
         {
             "label": "VOID\n ITEM",
