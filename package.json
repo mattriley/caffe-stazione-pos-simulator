@@ -1,5 +1,5 @@
 {
-  "name": "caffe-stazione-simulator",
+  "name": "simu-stazione",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./docs' PUBLIC_URL='/caffe-stazione-simulator' react-scripts build",
+    "build": "BUILD_PATH='./docs' PUBLIC_URL='/simu-stazione' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
