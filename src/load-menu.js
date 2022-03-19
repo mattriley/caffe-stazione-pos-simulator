@@ -1,16 +1,16 @@
 import _ from 'lodash';
-import __menu from './data/menu.json';
+import _menu from './data/menu.json';
 
 const loadMenu = () => {
 
-    const _menu = {
-        items: [
-            {
-                label: 'HOME',
-                ...__menu
-            }
-        ]
-    }
+    // const _menu = {
+    //     items: [
+    //         {
+    //             label: 'HOME',
+    //             ...__menu
+    //         }
+    //     ]
+    // }
 
 
 
