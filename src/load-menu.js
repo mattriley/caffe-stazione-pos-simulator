@@ -48,7 +48,14 @@ const loadMenu = () => {
             const newPath = path.concat(key);
 
             const keywords = item.keywords ?? [];
-            const searchTerms = [...newPath, ...keywords];
+
+            if (item.labelSingleLine.includes('M/SHAKE')) {
+                keywords.push('MILKSHAKE');
+            }
+
+            const searchTerms = [...newPath, ...keywords]
+                .map(term => term.replace('\W', 'WITH'))
+
             const searchText = searchTerms.join(' ');
 
             const pathArray = [...newPath];

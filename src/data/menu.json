@@ -708,46 +708,32 @@
                     "items": [
                         {
                             "label": "CHOCOLA\nTE\n M/SHAKE",
-                            "backColor": "yellow",
-                            "keywords": [
-                                "MILKSHAKE"
-                            ]
+                            "backColor": "yellow"
                         },
                         {
                             "label": "S/BERRY\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
-                                "STRAWBERRY",
-                                "MILKSHAKE"
+                                "STRAWBERRY"
                             ]
                         },
                         {
                             "label": "VANILLA\n M/SHAKE",
-                            "backColor": "yellow",
-                            "keywords": [
-                                "MILKSHAKE"
-                            ]
+                            "backColor": "yellow"
                         },
                         {
                             "label": "CARAMEL\n M/SHAKE",
-                            "backColor": "yellow",
-                            "keywords": [
-                                "MILKSHAKE"
-                            ]
+                            "backColor": "yellow"
                         },
                         {
                             "label": "COFFEE\n M/SHAKE",
-                            "backColor": "yellow",
-                            "keywords": [
-                                "MILKSHAKE"
-                            ]
+                            "backColor": "yellow"
                         },
                         {
                             "label": "SML\n CHOC\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
-                                "SMALL",
-                                "MILKSHAKE"
+                                "SMALL"
                             ]
                         },
                         {
@@ -755,32 +741,28 @@
                             "backColor": "yellow",
                             "keywords": [
                                 "SMALL",
-                                "STRAWBERRY",
-                                "MILKSHAKE"
+                                "STRAWBERRY"
                             ]
                         },
                         {
                             "label": "SML\n VANILLA\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
-                                "SMALL",
-                                "MILKSHAKE"
+                                "SMALL"
                             ]
                         },
                         {
                             "label": "SML\n CARAMEL\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
-                                "SMALL",
-                                "MILKSHAKE"
+                                "SMALL"
                             ]
                         },
                         {
                             "label": "SML\n COFFEE\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
-                                "SMALL",
-                                "MILKSHAKE"
+                                "SMALL"
                             ]
                         },
                         {
