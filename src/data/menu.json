@@ -160,8 +160,11 @@
                     "backColor": "white"
                 },
                 {
-                    "label": "SCRAML\nE/SIDE",
-                    "backColor": "white"
+                    "label": "SCRAMBL\nE/SIDE",
+                    "backColor": "white",
+                    "keywords": [
+                        "EGGS"
+                    ]
                 },
                 {
                     "label": "NO\n ROCKET",
@@ -172,7 +175,7 @@
                     "backColor": "white"
                 },
                 {
-                    "label": "PAEMESS\nAN\n CHEESE",
+                    "label": "PARMESS\nAN\n CHEESE",
                     "backColor": "white"
                 }
             ]
@@ -705,7 +708,10 @@
                     "items": [
                         {
                             "label": "CHOCOLA\nTE\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "S/BERRY\n M/SHAKE",
@@ -1873,7 +1879,9 @@
                         {
                             "label": "ALMOND\n CROISS",
                             "backColor": "blue",
-                            "keywords": "CROSSAINT"
+                            "keywords": [
+                                "CROSSAINT"
+                            ]
                         },
                         {
                             "label": "BERRY C\nROSS\nAINT",
@@ -3791,6 +3799,7 @@
                             "label": "SMALL\n BANA\n SMOTHIE",
                             "backColor": "blue",
                             "keywords": [
+                                "BANANA",
                                 "SMOOTHIE"
                             ]
                         },
