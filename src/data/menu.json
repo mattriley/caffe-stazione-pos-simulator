@@ -3831,39 +3831,26 @@
                         },
                         {
                             "label": "GLS\n MILK",
-                            "backColor": "blue",
-                            "keywords": [
-                                "GLASS"
-                            ]
+                            "backColor": "blue"
                         },
                         {
                             "label": "GLS\n CHOC\n MILK",
-                            "backColor": "blue",
-                            "keywords": [
-                                "GLASS"
-                            ]
+                            "backColor": "blue"
                         },
                         {
                             "label": "GLS\n S'BERRY\n MILK",
                             "backColor": "blue",
                             "keywords": [
-                                "GLASS",
                                 "STRAWBERRY"
                             ]
                         },
                         {
                             "label": "GLS\n VANILLA\n MILK",
-                            "backColor": "blue",
-                            "keywords": [
-                                "GLASS"
-                            ]
+                            "backColor": "blue"
                         },
                         {
                             "label": "GLS\n CARAMEL\n MILK",
-                            "backColor": "blue",
-                            "keywords": [
-                                "GLASS"
-                            ]
+                            "backColor": "blue"
                         },
                         {
                             "label": "",

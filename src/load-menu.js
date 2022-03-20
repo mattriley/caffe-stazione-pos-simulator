@@ -61,6 +61,10 @@ const loadMenu = () => {
                 keywords.push('SMALL');
             }
 
+            if (item.labelSingleLine.includes('GLS ')) {
+                keywords.push('GLASS');
+            }
+
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('\W', 'WITH'))
 
