@@ -74,7 +74,7 @@ const loadMenu = () => {
             // }
 
             const searchTerms = [...newPath, ...keywords]
-                .map(term => term.replace('\W', 'WITH'))
+                .map(term => term.replace('W/', 'WITH'))
 
             const searchText = searchTerms.join(' ');
 
@@ -82,7 +82,7 @@ const loadMenu = () => {
             // pathArray.pop();
 
 
-            const newItem = { pathArray, path: newPath.join('.'), searchText, ...item };
+            const newItem = { pathArray, path: newPath.join('.'), searchText, keywords, ...item };
 
             allItems.push(newItem);
 
