@@ -53,6 +53,10 @@ const loadMenu = () => {
                 keywords.push('MILKSHAKE');
             }
 
+            if (item.labelSingleLine.includes('LGE ')) {
+                keywords.push('LARGE');
+            }
+
             if (item.labelSingleLine.includes('SML ')) {
                 keywords.push('SMALL');
             }
@@ -64,6 +68,10 @@ const loadMenu = () => {
             if (item.labelSingleLine.includes('GLS ')) {
                 keywords.push('GLASS');
             }
+
+            // if (item.labelSingleLine.includes('GF ')) {
+            //     keywords.push('GLUTEN FREE');
+            // }
 
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('\W', 'WITH'))
