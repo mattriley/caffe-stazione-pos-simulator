@@ -53,6 +53,14 @@ const loadMenu = () => {
                 keywords.push('MILKSHAKE');
             }
 
+            if (item.labelSingleLine.includes('SML ')) {
+                keywords.push('SMALL');
+            }
+
+            if (item.labelSingleLine.includes('SM ')) {
+                keywords.push('SMALL');
+            }
+
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('\W', 'WITH'))
 
