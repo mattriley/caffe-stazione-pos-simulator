@@ -746,6 +746,7 @@
                             "label": "SML\n CHOC\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
+                                "SMALL",
                                 "MILKSHAKE"
                             ]
                         },
@@ -753,6 +754,7 @@
                             "label": "SML\n S/BERRY\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
+                                "SMALL",
                                 "STRAWBERRY",
                                 "MILKSHAKE"
                             ]
@@ -761,6 +763,7 @@
                             "label": "SML\n VANILLA\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
+                                "SMALL",
                                 "MILKSHAKE"
                             ]
                         },
@@ -768,6 +771,7 @@
                             "label": "SML\n CARAMEL\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
+                                "SMALL",
                                 "MILKSHAKE"
                             ]
                         },
@@ -775,6 +779,7 @@
                             "label": "SML\n COFFEE\n M/SHAKE",
                             "backColor": "yellow",
                             "keywords": [
+                                "SMALL",
                                 "MILKSHAKE"
                             ]
                         },
@@ -808,11 +813,17 @@
                         },
                         {
                             "label": "SML\n HEAVEN",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "SMALL"
+                            ]
                         },
                         {
                             "label": "SML\n BANANA",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "SMALL"
+                            ]
                         },
                         {
                             "label": "BLUE\n HEAVEN\n SHAKE",
@@ -894,7 +905,10 @@
                         },
                         {
                             "label": "SM\n NUTELLA",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "SMALL"
+                            ]
                         },
                         {
                             "label": "",
@@ -3841,7 +3855,10 @@
                         },
                         {
                             "label": "SM\n NUTELLA",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "SMALL"
+                            ]
                         },
                         {
                             "label": "",
