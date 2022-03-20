@@ -9,7 +9,10 @@
                 },
                 {
                     "label": "GF\n BREAD",
-                    "backColor": "white"
+                    "backColor": "white",
+                    "keywords": [
+                        "GLUTEN FREE"
+                    ]
                 },
                 {
                     "label": "SMOKED\n SALMON",
@@ -65,15 +68,24 @@
                 },
                 {
                     "label": "1 SLICE\n TOAST",
-                    "backColor": "white"
+                    "backColor": "white",
+                    "keywords": [
+                        "SOUR DOUGH"
+                    ]
                 },
                 {
                     "label": "2 SLICE\n TOAST",
-                    "backColor": "white"
+                    "backColor": "white",
+                    "keywords": [
+                        "SOUR DOUGH"
+                    ]
                 },
                 {
                     "label": "NO\n TOAST",
-                    "backColor": "white"
+                    "backColor": "white",
+                    "keywords": [
+                        "SOUR DOUGH"
+                    ]
                 },
                 {
                     "label": "ADD\n PICKLE",
@@ -320,7 +332,10 @@
                 },
                 {
                     "label": "XTRA\n CHOC!",
-                    "backColor": "white"
+                    "backColor": "white",
+                    "keywords": [
+                        "EXTRA"
+                    ]
                 },
                 {
                     "label": "NO CINN\nAMON",
@@ -345,11 +360,17 @@
                     "items": [
                         {
                             "label": "MARGHER\nITA\n PIZZE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "CHEESE"
+                            ]
                         },
                         {
                             "label": "FUNGHI\n PIZZE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MUSHROOM"
+                            ]
                         },
                         {
                             "label": "SALAMI\n RICCOTA",
@@ -369,7 +390,8 @@
                         },
                         {
                             "label": "CAPS/GO\nATS\n PIZZE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "comments": "is CAPS = CAPSICUM? What is GOATS?"
                         },
                         {
                             "label": "",
@@ -385,7 +407,10 @@
                         },
                         {
                             "label": "SALAMI/\nFUNGHI",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MUSHROOM"
+                            ]
                         },
                         {
                             "label": "SALAMI/\nOLIVES",
@@ -508,7 +533,10 @@
                     "items": [
                         {
                             "label": "INSALAT\nA DI\n POLLO",
-                            "backColor": "pink"
+                            "backColor": "pink",
+                            "keywords": [
+                                "CHICKEN"
+                            ]
                         },
                         {
                             "label": "INSALAT\nA DI\n TONNO",
@@ -600,11 +628,17 @@
                         },
                         {
                             "label": "FRUTA\n FRESCA",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "FRUIT"
+                            ]
                         },
                         {
                             "label": "FRUTA\n FRESCA",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "FRUIT"
+                            ]
                         },
                         {
                             "label": "",
@@ -675,39 +709,68 @@
                         },
                         {
                             "label": "S/BERRY\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "STRAWBERRY",
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "VANILLA\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "CARAMEL\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "COFFEE\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "SML\n CHOC\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "SML\n S/BERRY\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "STRAWBERRY",
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "SML\n VANILLA\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "SML\n CARAMEL\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "SML\n COFFEE\n M/SHAKE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MILKSHAKE"
+                            ]
                         },
                         {
                             "label": "COKE\n SPIDER",
@@ -728,7 +791,10 @@
                         {
                             "label": "D COKE\n SPIDER",
                             "backColor": "green",
-                            "comment": "should be D.COKE but dot interferes with path!!"
+                            "comment": "should be D.COKE but dot interferes with path!!",
+                            "keywords": [
+                                "DIET COKE"
+                            ]
                         },
                         {
                             "label": "SQUASH\n SPIDER",
@@ -772,11 +838,17 @@
                         },
                         {
                             "label": "ONE\n SCOOP\n ICE",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "ICE CREAM"
+                            ]
                         },
                         {
                             "label": "TWO\n SCOOP\n ICE",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "ICE CREAM"
+                            ]
                         },
                         {
                             "label": "",
@@ -847,7 +919,10 @@
                         },
                         {
                             "label": "FRESH\n WMELON",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH\n TUTTI\n FRUTTI",
@@ -855,19 +930,35 @@
                         },
                         {
                             "label": "FRESH\n OR/AP",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "FRESH\n AP/OR",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "FRESH\n PE/OR",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "PEAR",
+                                "ORANGE"
+                            ]
                         },
                         {
                             "label": "FRESH\n WMLN/OR",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "WATERMELON",
+                                "ORANGE"
+                            ]
                         },
                         {
                             "label": "GREEN\n JUICE",
@@ -895,39 +986,76 @@
                         },
                         {
                             "label": "FRESH\n OR/PEAR",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "ORANGE"
+                            ]
                         },
                         {
                             "label": "FRESH\n AP/WMLN",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "APPLE",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH\n PE/WMLN",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "PEAR",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH\n WMLN/PE",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "PEAR",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "CAR/AP/\nGINGER",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "CARROT",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "FRESH O\nR/AP\n/PEAR",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "FRESH A\nP/OP\n/PEAR",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "FRESH P\nE/OR/AP",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "PEAR",
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "FRESH W\nMLN/OR/AP",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "WATERMELON",
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "SMALL",
@@ -935,19 +1063,39 @@
                         },
                         {
                             "label": "FRESH O\nR/AP\n/WMLN",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "ORANGE",
+                                "APPLE",
+                                "WATERMELON"
+                            ]
                         },
                         {
-                            "label": "FRESH A\nP/OP\n/WMLN",
-                            "backColor": "green"
+                            "label": "FRESH A\nP/OR\n/WMLN",
+                            "backColor": "green",
+                            "keywords": [
+                                "APPLE",
+                                "ORANGE",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH P\nE/AP\n/WMLN",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "PEAR",
+                                "APPLE",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH W\nMLN/\nOR/AP",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "WATERMELON",
+                                "ORANGE",
+                                "APPLE"
+                            ]
                         },
                         {
                             "label": "",
@@ -955,19 +1103,39 @@
                         },
                         {
                             "label": "FRESH O\nR/PE\n/WMLN",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "ORANGE",
+                                "PEAR",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH A\nP/PE\n/WMLN",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "APPLE",
+                                "PEAR",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH P\nE/OR\n/WMLN",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "PEAR",
+                                "ORANGE",
+                                "WATERMELON"
+                            ]
                         },
                         {
                             "label": "FRESH W\nMLN/\nAP/PE",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "WATERMELON",
+                                "APPLE",
+                                "PEAR"
+                            ]
                         },
                         {
                             "label": "",
@@ -1232,7 +1400,10 @@
                         },
                         {
                             "label": "WATER\n MOUNT F",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MOUNT FRANKLIN"
+                            ]
                         },
                         {
                             "label": "AQUA\n PANNA",
@@ -1244,7 +1415,10 @@
                         },
                         {
                             "label": "LGE\n SPARK",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "SPARKLING"
+                            ]
                         },
                         {
                             "label": "",
@@ -1410,11 +1584,11 @@
                             "backColor": "purple"
                         },
                         {
-                            "label": "ESPRESS\nO\nMARTINI",
+                            "label": "ESPRESS\nO\n MARTINI",
                             "backColor": "purple"
                         },
                         {
-                            "label": "ESPRESS\nO\nMARTINI",
+                            "label": "ESPRESS\nO\n MARTINI",
                             "backColor": "purple"
                         },
                         {
@@ -1508,7 +1682,10 @@
                         },
                         {
                             "label": "POLLO",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "CHICKEN"
+                            ]
                         },
                         {
                             "label": "PIADINA",
@@ -1532,11 +1709,19 @@
                         },
                         {
                             "label": "BLT",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "BACON",
+                                "LETTUCE",
+                                "TOMATO"
+                            ]
                         },
                         {
                             "label": "SALAMI\n BAG",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "BAGUETTE"
+                            ]
                         },
                         {
                             "label": "BUFFALO\n BRUSCHE\nTTA",
@@ -1544,7 +1729,12 @@
                         },
                         {
                             "label": "HCT\n TOSTONI",
-                            "backColor": "green"
+                            "backColor": "green",
+                            "keywords": [
+                                "HAM",
+                                "CHEESE",
+                                "TOMATO"
+                            ]
                         },
                         {
                             "label": "MUSHROO\nM\n TOSTONI",
@@ -1628,15 +1818,26 @@
                         },
                         {
                             "label": "CHEESE\n & TOM\n TOASTY",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "TOMATO"
+                            ]
                         },
                         {
                             "label": "HAM &\n TOM\n TOASTY",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "TOMATO"
+                            ]
                         },
                         {
                             "label": "HCT\n TOASTY",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "HAM",
+                                "CHEESE",
+                                "TOMATO"
+                            ]
                         },
                         {
                             "label": "CHEESE\n TOASTY",
@@ -1671,7 +1872,8 @@
                         },
                         {
                             "label": "ALMOND\n CROISS",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": "CROSSAINT"
                         },
                         {
                             "label": "BERRY C\nROSS\nAINT",
@@ -1833,7 +2035,10 @@
                     "items": [
                         {
                             "label": "STILL\n M/W",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MINERAL WATER"
+                            ]
                         },
                         {
                             "label": "SPARKLI\nNG\n WATER",
@@ -1853,15 +2058,25 @@
                         },
                         {
                             "label": "G/FRUIT\n M/W",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "GRAPEFRUIT",
+                                "MINERAL WATER"
+                            ]
                         },
                         {
                             "label": "ORGANIC\n LEMON\n M/W",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MINERAL WATER"
+                            ]
                         },
                         {
                             "label": "RED\n ORANGE\n M/W",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MINERAL WATER"
+                            ]
                         },
                         {
                             "label": "",
@@ -1869,7 +2084,10 @@
                         },
                         {
                             "label": "PASSION\nFRUIT\n M/W",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MINERAL WATER"
+                            ]
                         },
                         {
                             "label": "",
@@ -2589,7 +2807,7 @@
                             "backColor": "blue"
                         },
                         {
-                            "label": "PASSION\n FRUIT\n SLICE",
+                            "label": "PASSION\nFRUIT\n SLICE",
                             "backColor": "blue"
                         },
                         {
@@ -2622,7 +2840,10 @@
                         },
                         {
                             "label": "GF CHOC\n CAKE",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "GLUTEN FREE"
+                            ]
                         },
                         {
                             "label": "LEMON\n TART",
@@ -2701,11 +2922,18 @@
                         },
                         {
                             "label": "LONG/MA\nCCH",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "MACCHIATO"
+                            ]
                         },
                         {
                             "label": "ESPR/MA\nCCH",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "ESPRESSO",
+                                "MACCHIATO"
+                            ]
                         },
                         {
                             "label": "BABY\nCINO",
@@ -2912,11 +3140,13 @@
                         },
                         {
                             "label": "SP/RIC\nFILO/SA\nLAD",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "comment": "spinach, ricotta?"
                         },
                         {
                             "label": "SP/RIC\n FILO",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "comment": "spinach, ricotta?"
                         },
                         {
                             "label": "",
@@ -3178,7 +3408,10 @@
                     "items": [
                         {
                             "label": "ENG\n B'FAST\n TEA",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "keywords": [
+                                "ENGLISH BREAKFAST"
+                            ]
                         },
                         {
                             "label": "EARL\n GREY\n TEA",
@@ -3351,19 +3584,28 @@
                     "items": [
                         {
                             "label": "HAM/\nCHEESE\nCROIS",
-                            "backColor": "orange"
+                            "backColor": "orange",
+                            "keywords": [
+                                "CROISSANT"
+                            ]
                         },
                         {
-                            "label": "PLAIN C\nROSAINT",
+                            "label": "PLAIN C\nROISANT",
                             "backColor": "orange"
                         },
                         {
                             "label": "CHEESE/\nTOMATO\n CROISS",
-                            "backColor": "orange"
+                            "backColor": "orange",
+                            "keywords": [
+                                "CROISSANT"
+                            ]
                         },
                         {
                             "label": "TOM/CHE\n/HAM CR\nOISSAN",
-                            "backColor": "orange"
+                            "backColor": "orange",
+                            "keywords": [
+                                "CROISSANT"
+                            ]
                         },
                         {
                             "label": "",
@@ -3411,11 +3653,17 @@
                         },
                         {
                             "label": "TOAST",
-                            "backColor": "orange"
+                            "backColor": "orange",
+                            "keywords": [
+                                "SOUR DOUGH"
+                            ]
                         },
                         {
                             "label": "1 SLICE\n S/D\n TOAST",
-                            "backColor": "orange"
+                            "backColor": "orange",
+                            "keywords": [
+                                "SOUR DOUGH"
+                            ]
                         },
                         {
                             "label": "",
@@ -3427,7 +3675,10 @@
                         },
                         {
                             "label": "1 SLICE\n F/TOAST",
-                            "backColor": "orange"
+                            "backColor": "orange",
+                            "keywords": [
+                                "FRUIT TOAST"
+                            ]
                         },
                         {
                             "label": "BREAD\n LOAF",
@@ -3538,7 +3789,10 @@
                         },
                         {
                             "label": "SMALL\n BANA\n SMOTHIE",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "SMOOTHIE"
+                            ]
                         },
                         {
                             "label": "TROPICA\nL SMALL",
@@ -3594,23 +3848,39 @@
                         },
                         {
                             "label": "GLS\n MILK",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "GLASS"
+                            ]
                         },
                         {
                             "label": "GLS\n CHOC\n MILK",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "GLASS"
+                            ]
                         },
                         {
                             "label": "GLS\n S'BERRY\n MILK",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "GLASS",
+                                "STRAWBERRY"
+                            ]
                         },
                         {
                             "label": "GLS\n VANILLA\n MILK",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "GLASS"
+                            ]
                         },
                         {
                             "label": "GLS\n CARAMEL\n MILK",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "GLASS"
+                            ]
                         },
                         {
                             "label": "",
@@ -3662,7 +3932,10 @@
                         },
                         {
                             "label": "GREEN\n SMOTHIE",
-                            "backColor": "blue"
+                            "backColor": "blue",
+                            "keywords": [
+                                "SMOOTHIE"
+                            ]
                         },
                         {
                             "label": "BEV INST",
