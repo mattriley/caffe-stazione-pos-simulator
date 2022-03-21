@@ -14,7 +14,9 @@ const pureComponents = compose('pureComponents', { services, lib, menu });
 
 ReactDOM.render(
   <React.StrictMode>
-    <components.SearchScreen pureComponents={pureComponents} services={services} />;
+    <components.App pureComponents={pureComponents}>
+      <components.SearchScreen pureComponents={pureComponents} services={services} />;
+    </components.App>
   </React.StrictMode>,
   document.getElementById('root')
 );
