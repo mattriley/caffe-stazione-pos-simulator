@@ -3,3 +3,10 @@
     width: 400px;
     white-space: nowrap;
 }
+
+.single-search-result {
+    margin: 0px auto;
+    text-align: center;
+    /* width: 400px; */
+    white-space: nowrap;
+}

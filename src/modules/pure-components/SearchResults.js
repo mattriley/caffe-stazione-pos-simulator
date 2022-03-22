@@ -1,6 +1,6 @@
 import './css/SearchResults.css';
 
-const SearchResults = ({ pureComponents, menu }) => ({ items, onSelection, selectedItem }) => {
+const SearchResults = ({ pureComponents }) => ({ items, onSelection, selectedItem }) => {
     const results = selectedItem ? [selectedItem] : items;
 
     const searchResults = results.map(item => {
@@ -9,7 +9,9 @@ const SearchResults = ({ pureComponents, menu }) => ({ items, onSelection, selec
 
     // todo: if one result, center it...
 
-    return <div className="search-results">{searchResults}</div>
+    const className = searchResults.length === 1 ? 'single-search-result' : 'search-results';
+
+    return <div className={className}>{searchResults}</div>
 };
 
 export default SearchResults;
