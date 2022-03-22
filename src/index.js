@@ -8,9 +8,8 @@ import { menu, config } from './data';
 
 const { components, util } = modules;
 const compose = moduleComposer(modules);
-const data = compose('data', { menu: loadMenu(menu) });
-const lib = compose('lib', { util });
-const pureComponents = compose('pureComponents', { data, lib, util, config });
+const data = compose('data', { util, menu: loadMenu(menu) });
+const pureComponents = compose('pureComponents', { data, util, config });
 
 ReactDOM.render(
   <React.StrictMode>
