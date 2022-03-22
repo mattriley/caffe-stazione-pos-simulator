@@ -9,9 +9,11 @@ const MenuPath = ({ util, menuReader }) => ({ item, onClick }) => {
     const pathIncrements = util.inflate(item.pathArray);
     pathIncrements.shift(); // remove ["HOME"]
 
-    const pathItems = pathIncrements.map(path => {
+    const items = pathIncrements.map(menuReader.getMenuItem);
 
-        const { labelSingleLine, backColor, textColor } = menuReader.getMenuItem(path);
+
+    const pathItems = items.map(item => {
+        const { labelSingleLine, backColor, textColor } = item;
         const label = labelSingleLine.length ? labelSingleLine : '(BLANK)';
         const className = `path-segment back-color-${backColor} text-color-${textColor}`.toLowerCase();
         return <span className={className}>{label}</span>
