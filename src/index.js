@@ -11,7 +11,7 @@ const compose = moduleComposer(modules);
 const menu = loadMenu(sourceData.menu);
 const data = compose('data', { menu });
 const lib = compose('lib', { util });
-const pureComponents = compose('pureComponents', { data, lib, util, menu, config: sourceData.config });
+const pureComponents = compose('pureComponents', { data, lib, util, config: sourceData.config });
 
 ReactDOM.render(
   <React.StrictMode>

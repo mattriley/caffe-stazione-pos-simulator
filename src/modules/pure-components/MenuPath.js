@@ -1,7 +1,7 @@
 import './css/MenuPath.css';
 import _ from 'lodash';
 
-const MenuPath = ({ util, menu }) => ({ item, onClick }) => {
+const MenuPath = ({ util, data }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
     if (item.items) return null;
@@ -11,13 +11,8 @@ const MenuPath = ({ util, menu }) => ({ item, onClick }) => {
     pathIncrements.shift(); // remove ["HOME"]
 
     const pathItems = pathIncrements.map(path => {
-        const fullPath = path.flatMap(p => ['tree', p]);
 
-        if (!_.get(menu.tree, fullPath)) {
-            // console.log({ fullPath });
-        }
-
-        const { labelSingleLine, backColor, textColor } = _.get(menu.tree, fullPath);
+        const { labelSingleLine, backColor, textColor } = data.getMenuItem(path);
         // const label = { __html: labelSingleLine.length ? labelSingleLine : '&nbsp;&nbsp;&nbsp;' };
         const label = { __html: labelSingleLine.length ? labelSingleLine : '(BLANK)' };
 
