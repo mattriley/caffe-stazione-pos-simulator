@@ -8,7 +8,7 @@
         "enabled": false
     },
     "app": {
-        "name": "Stazione Simulator",
+        "name": "Simulatore di Stazione • Stazione Simulator",
         "issues": "https://github.com/mattriley/stazione-simulator/issues",
         "source": "https://github.com/mattriley/stazione-simulator"
     },
