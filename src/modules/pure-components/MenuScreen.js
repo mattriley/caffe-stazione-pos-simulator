@@ -1,12 +1,12 @@
 import './css/MenuScreen.css';
 import _ from 'lodash';
 
-const MenuScreen = ({ pureComponents, data }) => ({ path, selectedItem }) => {
+const MenuScreen = ({ pureComponents, menuReader }) => ({ path, selectedItem }) => {
 
-  const submenu = data.getSubmenu(path);
+  const submenu = menuReader.getSubmenu(path);
   if (!submenu.rows) return null;
 
-  const isSelected = data.isSelected(selectedItem);
+  const isSelected = menuReader.isSelected(selectedItem);
 
   const rows = submenu.rows.map(row => {
     const buttons = row.map(item => {

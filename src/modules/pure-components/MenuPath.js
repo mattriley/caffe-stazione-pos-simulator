@@ -1,7 +1,7 @@
 import './css/MenuPath.css';
 import _ from 'lodash';
 
-const MenuPath = ({ util, data }) => ({ item, onClick }) => {
+const MenuPath = ({ util, menuReader }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
     if (item.items) return null;
@@ -12,7 +12,7 @@ const MenuPath = ({ util, data }) => ({ item, onClick }) => {
 
     const pathItems = pathIncrements.map(path => {
 
-        const { labelSingleLine, backColor, textColor } = data.getMenuItem(path);
+        const { labelSingleLine, backColor, textColor } = menuReader.getMenuItem(path);
         // const label = { __html: labelSingleLine.length ? labelSingleLine : '&nbsp;&nbsp;&nbsp;' };
         const label = { __html: labelSingleLine.length ? labelSingleLine : '(BLANK)' };
 

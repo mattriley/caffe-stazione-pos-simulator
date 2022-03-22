@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-const SearchScreen = ({ pureComponents, data }) => {
+const SearchScreen = ({ pureComponents, menuReader }) => {
 
-    const [searchResults, setSearchResults] = useState(data.searchMenu(''));
+    const [searchResults, setSearchResults] = useState(menuReader.searchMenu(''));
     const [selectedItem, setSelectedItem] = useState(undefined);
 
     const onSearch = term => {
-        const results = data.searchMenu(term);
+        const results = menuReader.searchMenu(term);
         const item = results.length === 1 ? results[0] : undefined;
         onSelection(item, results);
     }

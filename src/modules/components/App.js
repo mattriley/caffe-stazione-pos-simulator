@@ -1,8 +1,8 @@
-const App = ({ pureComponents, components, data }) => {
+const App = ({ pureComponents, components, menuReader }) => {
 
     return <div>
         <pureComponents.TitleBar />
-        <components.SearchScreen pureComponents={pureComponents} data={data} />;
+        <components.SearchScreen pureComponents={pureComponents} menuReader={menuReader} />;
     </div>
 
 };
