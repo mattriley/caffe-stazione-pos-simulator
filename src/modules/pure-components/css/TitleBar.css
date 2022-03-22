@@ -5,6 +5,7 @@ header {
     padding: 0;
     margin: 0;
     font-family: helvetica;
+    font-size: .8rem;
 }
 
 header a {
@@ -23,10 +24,7 @@ header a:hover {
     align-items: center;
     background-color: black;
     padding: 0.5rem;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
-    font-size: small;
-    font-size: .8rem;
+    padding: 0.2rem 1.5rem;
     border-top: solid 2px white;
     white-space: nowrap;
 }
@@ -42,11 +40,14 @@ header a:hover {
 .title-bar .app-name {
     padding: 0;
     margin: 0;
-    font-size: 1rem;
-    font-size: small;
+    
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
-    /* font-size: 1rem; */
     letter-spacing: .1rem;
+}
+
+.author {
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
 }
