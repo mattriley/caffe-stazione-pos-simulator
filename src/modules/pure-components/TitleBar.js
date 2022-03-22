@@ -1,15 +1,15 @@
 import "./css/TitleBar.css";
 
-const TitleBar = () => () => {
+const TitleBar = ({ config }) => () => {
 
     return <header>
         <div className="title-bar">
             <div className="left">
-                <span className="app-name">Stazione Simulator</span>
-                <a className="author" target="_blank" href="https://www.linkedin.com/in/mattrileyau/">by Matt Riley</a>
+                <span className="app-name">{config.app.name}</span>
+                <a className="author" target="_blank" href={config.author.profile}>by {config.author.name}</a>
             </div>
             <div className="right">
-                <a target="_blank" href="https://github.com/mattriley/stazione-simulator">Source code</a>
+                <a target="_blank" href={config.app.source}>Source code</a>
             </div>
         </div>
     </header>
