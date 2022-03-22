@@ -1,5 +1,5 @@
 {
-  "name": "simu-stazione",
+  "name": "stazione-simulator",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "BUILD_PATH='./docs' PUBLIC_URL='/simu-stazione' react-scripts build",
+    "deploy": "BUILD_PATH='./docs' PUBLIC_URL='/stazione-simulator' react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
