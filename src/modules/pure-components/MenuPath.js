@@ -1,16 +1,13 @@
 import './css/MenuPath.css';
 import _ from 'lodash';
 
-const MenuPath = ({ util, menuReader }) => ({ item, onClick }) => {
+const MenuPath = ({ menuReader }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
     if (item.items) return null;
 
-    const pathIncrements = util.inflate(item.pathArray);
-    pathIncrements.shift(); // remove ["HOME"]
-
-    const items = pathIncrements.map(menuReader.getMenuItem);
-
+    const items = menuReader.getMenuItemPath(item.pathArray);
+    items.shift(); // remove ["HOME"]
 
     const pathItems = items.map(item => {
         const { labelSingleLine, backColor, textColor } = item;
