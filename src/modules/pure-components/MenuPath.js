@@ -1,4 +1,4 @@
-import './MenuPath.css';
+import './css/MenuPath.css';
 import _ from 'lodash';
 
 const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {

@@ -1,4 +1,4 @@
-import './MenuButton.css';
+import './css/MenuButton.css';
 
 const MenuButton = () => ({ item, selected = false }) => {
   const { label, backColor, textColor = 'black', span = 1 } = item;

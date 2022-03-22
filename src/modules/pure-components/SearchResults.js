@@ -1,4 +1,4 @@
-import './SearchResults.css';
+import './css/SearchResults.css';
 
 const SearchResults = ({ pureComponents, menu }) => ({ items, onSelection, selectedItem }) => {
     const results = selectedItem ? [selectedItem] : items;

@@ -1,4 +1,4 @@
-import "./TitleBar.css";
+import "./css/TitleBar.css";
 
 const TitleBar = () => () => {
 

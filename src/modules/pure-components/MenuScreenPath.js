@@ -1,4 +1,4 @@
-import './MenuScreenPath.css';
+import './css/MenuScreenPath.css';
 
 const MenuScreenPath = ({ pureComponents, lib }) => ({ selectedItem }) => {
 
