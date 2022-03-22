@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/simu-stazione/static/css/main.7289fc5f.css",
-    "main.js": "/simu-stazione/static/js/main.9a0a7227.js",
-    "static/js/787.e9122320.chunk.js": "/simu-stazione/static/js/787.e9122320.chunk.js",
-    "index.html": "/simu-stazione/index.html",
-    "main.7289fc5f.css.map": "/simu-stazione/static/css/main.7289fc5f.css.map",
-    "main.9a0a7227.js.map": "/simu-stazione/static/js/main.9a0a7227.js.map",
-    "787.e9122320.chunk.js.map": "/simu-stazione/static/js/787.e9122320.chunk.js.map"
+    "main.css": "/stazione-simulator/static/css/main.a3dcdc62.css",
+    "main.js": "/stazione-simulator/static/js/main.4c0d7fbe.js",
+    "index.html": "/stazione-simulator/index.html",
+    "main.a3dcdc62.css.map": "/stazione-simulator/static/css/main.a3dcdc62.css.map",
+    "main.4c0d7fbe.js.map": "/stazione-simulator/static/js/main.4c0d7fbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.7289fc5f.css",
-    "static/js/main.9a0a7227.js"
+    "static/css/main.a3dcdc62.css",
+    "static/js/main.4c0d7fbe.js"
   ]
 }
