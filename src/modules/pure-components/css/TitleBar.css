@@ -26,7 +26,7 @@ header a:hover {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     font-size: small;
-    font-size: .7rem;
+    font-size: .8rem;
     border-top: solid 2px white;
     white-space: nowrap;
 }
@@ -47,4 +47,6 @@ header a:hover {
     display: inline-block;
     text-transform: uppercase;
     font-weight: bold;
+    /* font-size: 1rem; */
+    letter-spacing: .1rem;
 }
