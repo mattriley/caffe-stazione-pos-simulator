@@ -1,3 +1,4 @@
+import getSubmenu from './get-submenu';
 import searchMenu from './search-menu';
 
-export default { searchMenu };
+export default { getSubmenu, searchMenu };

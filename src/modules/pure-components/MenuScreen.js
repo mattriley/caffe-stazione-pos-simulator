@@ -1,11 +1,9 @@
 import './css/MenuScreen.css';
 import _ from 'lodash';
 
-const MenuScreen = ({ pureComponents, lib, menu }) => ({ path, selectedItem }) => {
+const MenuScreen = ({ pureComponents, lib, data }) => ({ path, selectedItem }) => {
 
-  const fullPath = path.flatMap(p => ['tree', p]);
-  const submenu = _.get(menu.tree, fullPath);
-
+  const submenu = data.getSubmenu(path);
   if (!submenu.rows) return null;
 
   const isSelected = lib.isSelected(selectedItem);
