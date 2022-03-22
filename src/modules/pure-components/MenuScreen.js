@@ -8,11 +8,11 @@ const MenuScreen = ({ pureComponents, lib, menu }) => ({ path, selectedItem }) =
 
   if (!submenu.rows) return null;
 
-  const selectedPathIncrements = lib.inflate(selectedItem.pathArray).map(path => path.join('.'));
+  const isSelected = lib.isSelected(selectedItem);
 
   const rows = submenu.rows.map(row => {
     const buttons = row.map(item => {
-      const selected = !!selectedPathIncrements.find(path => path === item.pathArray.join('.'));
+      const selected = isSelected(item);
       return <pureComponents.MenuButton selected={selected} item={item} />
     });
     return <div className="menu-row">{buttons}</div>;

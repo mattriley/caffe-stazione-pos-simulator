@@ -1,3 +1,3 @@
-import inflate from './inflate';
+import isSelected from './is-selected';
 
-export default { inflate };
+export default { isSelected };

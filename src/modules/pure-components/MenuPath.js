@@ -1,13 +1,13 @@
 import './css/MenuPath.css';
 import _ from 'lodash';
 
-const MenuPath = ({ lib, menu }) => ({ item, onClick }) => {
+const MenuPath = ({ util, menu }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
     if (item.items) return null;
     // if (!item.items.length) return;
 
-    const pathIncrements = lib.inflate(item.pathArray);
+    const pathIncrements = util.inflate(item.pathArray);
     pathIncrements.shift(); // remove ["HOME"]
 
     const pathItems = pathIncrements.map(path => {

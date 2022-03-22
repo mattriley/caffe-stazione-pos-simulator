@@ -1,6 +1,7 @@
 import components from './components';
+import data from './data';
 import lib from './lib';
 import pureComponents from './pure-components';
-import services from './services';
+import util from './util';
 
-export default { components, lib, pureComponents, services };
+export default { components, data, lib, pureComponents, util };

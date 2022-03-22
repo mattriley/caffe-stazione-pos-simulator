@@ -4,17 +4,18 @@ import ReactDOM from 'react-dom';
 import loadMenu from './load-menu';
 import moduleComposer from 'module-composer';
 import modules from './modules';
-import data from './data';
+import sourceData from './data';
 
-const { components, lib } = modules;
+const { components, util } = modules;
 const compose = moduleComposer(modules);
-const menu = loadMenu(data.menu);
-const services = compose('services', { lib, menu });
-const pureComponents = compose('pureComponents', { services, lib, menu, config: data.config });
+const menu = loadMenu(sourceData.menu);
+const data = compose('data', { menu });
+const lib = compose('lib', { util });
+const pureComponents = compose('pureComponents', { data, lib, util, menu, config: sourceData.config });
 
 ReactDOM.render(
   <React.StrictMode>
-    {components.App({ pureComponents, components, services })}
+    {components.App({ pureComponents, components, data })}
   </React.StrictMode >,
   document.getElementById('root')
 );
