@@ -5,7 +5,6 @@ const MenuPath = ({ util, menuReader }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;
     if (item.items) return null;
-    // if (!item.items.length) return;
 
     const pathIncrements = util.inflate(item.pathArray);
     pathIncrements.shift(); // remove ["HOME"]
@@ -13,11 +12,9 @@ const MenuPath = ({ util, menuReader }) => ({ item, onClick }) => {
     const pathItems = pathIncrements.map(path => {
 
         const { labelSingleLine, backColor, textColor } = menuReader.getMenuItem(path);
-        // const label = { __html: labelSingleLine.length ? labelSingleLine : '&nbsp;&nbsp;&nbsp;' };
-        const label = { __html: labelSingleLine.length ? labelSingleLine : '(BLANK)' };
-
+        const label = labelSingleLine.length ? labelSingleLine : '(BLANK)';
         const className = `path-segment back-color-${backColor} text-color-${textColor}`.toLowerCase();
-        return <span className={className} dangerouslySetInnerHTML={label} />
+        return <span className={className}>{label}</span>
     });
 
     const isPenultimate = i => i === pathItems.length - 1;
