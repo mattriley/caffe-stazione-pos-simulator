@@ -19,6 +19,7 @@ const SearchBar = () => ({ onSearch }) => {
             <input ref={searchInputRef} type="input" onChange={e => onSearch(e.target.value)} autoFocus />
             <span className="clear" onClick={clear}>🅧</span>
         </div>
+        <div></div>
     </div>
 }
 

@@ -1,6 +1,6 @@
 .search-bar {
     display: grid;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 200px auto 200px;
     align-items: center;
     margin: 0 30px;
     position: sticky;
@@ -11,6 +11,7 @@
 .search-box {
     padding: 0 80px;
     white-space: nowrap;
+    width: 100%;
 }
 
 .search-box input {
