@@ -3,17 +3,6 @@ import _menu from './data/menu.json';
 
 const loadMenu = () => {
 
-    // const _menu = {
-    //     items: [
-    //         {
-    //             label: 'HOME',
-    //             ...__menu
-    //         }
-    //     ]
-    // }
-
-
-
     const tree = {};
     const allItems = [];
     const rowSpan = 5;
@@ -69,20 +58,14 @@ const loadMenu = () => {
                 keywords.push('GLASS');
             }
 
-            // if (item.labelSingleLine.includes('GF ')) {
-            //     keywords.push('GLUTEN FREE');
-            // }
-
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('W/', 'WITH'))
 
             const searchText = searchTerms.join(' ');
 
             const pathArray = [...newPath];
-            // pathArray.pop();
 
-
-            const newItem = { pathArray, path: newPath.join('.'), searchText, keywords, ...item };
+            const newItem = { pathArray, searchText, keywords, ...item };
 
             allItems.push(newItem);
 
