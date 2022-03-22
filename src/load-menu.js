@@ -1,7 +1,6 @@
 import _ from 'lodash';
-import _menu from './data/menu.json';
 
-const loadMenu = () => {
+const loadMenu = (_menu) => {
 
     const tree = {};
     const allItems = [];
