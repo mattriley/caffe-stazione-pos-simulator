@@ -12,6 +12,8 @@ const { menu, config } = startup.loadData(data);
 const menuReader = compose('menuReader', { util, menu });
 const pureComponents = compose('pureComponents', { menuReader, util, config });
 
+window.document.title = config.app.name;
+
 ReactDOM.render(
   <React.StrictMode>
     {components.App({ pureComponents, components, menuReader })}

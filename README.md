@@ -1,1 +1,1 @@
-# Simulatore di Stazione • Stazione Simulator
+# Simulazione Stazione • Stazione Simulation

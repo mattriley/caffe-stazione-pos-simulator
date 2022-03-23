@@ -8,9 +8,9 @@
         "enabled": false
     },
     "app": {
-        "name": "Simulatore di Stazione • Stazione Simulator",
-        "issues": "https://github.com/mattriley/stazione-simulator/issues",
-        "source": "https://github.com/mattriley/stazione-simulator"
+        "name": "Simulazione Stazione • Stazione Simulation",
+        "issues": "https://github.com/mattriley/stazione-simulation/issues",
+        "source": "https://github.com/mattriley/stazione-simulation"
     },
     "author": {
         "name": "Matt Riley",
