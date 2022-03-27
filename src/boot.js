@@ -1,9 +1,9 @@
 import moduleComposer from 'module-composer';
 import modules from './modules';
+const { util } = modules;
 
 const boot = ({ data }) => {
 
-  const { util } = modules;
   const compose = moduleComposer(modules);
   const startup = compose('startup');
   const { menu, config } = startup.loadData(data);
