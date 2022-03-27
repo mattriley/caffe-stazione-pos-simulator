@@ -4,11 +4,11 @@ const { util } = modules;
 
 const boot = ({ config, data }) => {
 
-  const compose = moduleComposer(modules);
+  const compose = moduleComposer(modules, { util });
   const startup = compose('startup');
   const menu = startup.loadMenu(data.menu);
-  const menuReader = compose('menuReader', { menu, util });
-  compose('pureComponents', { menuReader, util, config });
+  const menuReader = compose('menuReader', { menu });
+  compose('pureComponents', { menuReader, config });
   return compose.done();
 
 }
