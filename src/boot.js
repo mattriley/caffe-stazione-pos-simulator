@@ -4,9 +4,10 @@ const { util } = modules;
 
 const boot = ({ data }) => {
 
+  const { config } = data;
   const compose = moduleComposer(modules);
   const startup = compose('startup');
-  const { menu, config } = startup.loadData(data);
+  const menu = startup.loadMenu(data.menu);
   compose.addModules({ config });
   const menuReader = compose('menuReader', { menu, util });
   compose('pureComponents', { menuReader, util, config });
