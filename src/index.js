@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom';
 import boot from './boot';
 import data from './data';
 
-const { modules } = boot({ data });
-console.log({ modules });
-const { pureComponents, components, menuReader, config } = modules;
+const { config } = data;
+const { modules } = boot({ config, data });
+const { pureComponents, components, menuReader } = modules;
 
 window.document.title = config.app.name;
 
