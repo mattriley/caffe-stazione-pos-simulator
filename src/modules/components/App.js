@@ -2,7 +2,7 @@ const App = ({ pureComponents, components, menuReader }) => {
 
     return <div>
         <pureComponents.TitleBar />
-        <components.SearchScreen pureComponents={pureComponents} menuReader={menuReader} />;
+        <components.SearchScreen {...{ pureComponents, menuReader }} />
     </div>
 
 };
