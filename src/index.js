@@ -1,16 +1,12 @@
 import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import moduleComposer from 'module-composer';
-import modules from './modules';
+import boot from './boot';
 import data from './data';
 
-const { components, util } = modules;
-const compose = moduleComposer(modules);
-const startup = compose('startup');
-const { menu, config } = startup.loadData(data);
-const menuReader = compose('menuReader', { util, menu });
-const pureComponents = compose('pureComponents', { menuReader, util, config });
+const { modules } = boot({ data });
+console.log({ modules });
+const { pureComponents, components, menuReader, config } = modules;
 
 window.document.title = config.app.name;
 
