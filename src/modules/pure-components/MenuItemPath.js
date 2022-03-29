@@ -11,9 +11,8 @@ const MenuItemPath = ({ menuReader }) => ({ item }) => {
     });
 
     const isPenultimate = i => i === pathItems.length - 1;
-    const fullPaths = pathItems.flatMap((el, i) => [el, isPenultimate(i) ? null : ' ▶︎ ']);
+    return pathItems.flatMap((el, i) => [el, isPenultimate(i) ? null : ' ▶︎ ']);
 
-    return <span>{fullPaths}</span>
 }
 
 export default MenuItemPath;
