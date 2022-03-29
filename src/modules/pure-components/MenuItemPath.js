@@ -1,4 +1,4 @@
-const MenuPath = ({ menuReader }) => ({ item }) => {
+const MenuItemPath = ({ menuReader }) => ({ item }) => {
 
     const items = menuReader.getMenuItemPath(item.pathArray);
     items.shift(); // remove ["HOME"]
@@ -16,4 +16,4 @@ const MenuPath = ({ menuReader }) => ({ item }) => {
     return <span>{fullPaths}</span>
 }
 
-export default MenuPath;
+export default MenuItemPath;
