@@ -4,7 +4,7 @@ const SearchResults = ({ pureComponents }) => ({ items, onSelection, selectedIte
     const results = selectedItem ? [selectedItem] : items;
 
     const searchResults = results.map(item => {
-        return <pureComponents.MenuPath item={item} onClick={() => onSelection(item)} />
+        return <pureComponents.MenuPath key={item.id} item={item} onClick={() => onSelection(item)} />
     });
 
     const className = searchResults.length === 1 ? 'single-search-result' : 'search-results';

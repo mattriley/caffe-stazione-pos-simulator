@@ -2,6 +2,8 @@ import _ from 'lodash';
 
 const loadMenu = _menu => {
 
+    let id = 0;
+
     const tree = {};
     const allItems = [];
     const rowSpan = 5;
@@ -9,7 +11,11 @@ const loadMenu = _menu => {
     let bevInst, foodInst;
 
     const transformMenuBetter = (menu, path = []) => {
+
         const items = menu.items?.flatMap(item => {
+
+            id++;
+
             const key = item.label.replaceAll('\n', '');
 
             const pathStr = path.concat(key).join('.');
@@ -64,7 +70,7 @@ const loadMenu = _menu => {
 
             const pathArray = [...newPath];
 
-            const newItem = { pathArray, searchText, keywords, ...item };
+            const newItem = { pathArray, id, searchText, keywords, ...item };
 
             allItems.push(newItem);
 

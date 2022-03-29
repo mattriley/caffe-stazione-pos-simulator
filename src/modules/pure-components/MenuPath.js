@@ -13,14 +13,14 @@ const MenuPath = ({ menuReader }) => ({ item, onClick }) => {
         const { labelSingleLine, backColor, textColor } = item;
         const label = labelSingleLine.length ? labelSingleLine : '(BLANK)';
         const className = `path-segment back-color-${backColor} text-color-${textColor}`.toLowerCase();
-        return <span className={className}>{label}</span>
+        return <span key={label} className={className}>{label}</span>
     });
 
     const isPenultimate = i => i === pathItems.length - 1;
     const fullPaths = pathItems.flatMap((el, i) => [el, isPenultimate(i) ? null : ' ▶︎ ']);
 
     const keywords = item.keywords?.map(keyword => {
-        return <span className="keyword">{keyword}</span>
+        return <span key={keyword} className="keyword">{keyword}</span>
     });
 
     return <div className="path" onClick={onClick}>{fullPaths}{keywords}</div>

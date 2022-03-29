@@ -7,7 +7,7 @@ const MenuScreenPath = ({ pureComponents, util }) => ({ selectedItem }) => {
     const pathIncrements = util.inflate(selectedItem.pathArray);
 
     const menuScreens = pathIncrements.map(path => {
-        return <pureComponents.MenuScreen path={path} selectedItem={selectedItem} />
+        return <pureComponents.MenuScreen key={path} path={path} selectedItem={selectedItem} />
     });
 
     return <div className="menu-screen-path">{menuScreens}</div>
