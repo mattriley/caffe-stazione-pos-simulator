@@ -1,10 +1,4 @@
-import './css/MenuPath.css';
-import _ from 'lodash';
-
-const MenuPath = ({ menuReader }) => ({ item, onClick }) => {
-
-    if (!item.labelSingleLine) return null;
-    if (item.items) return null;
+const MenuPath = ({ menuReader }) => ({ item }) => {
 
     const items = menuReader.getMenuItemPath(item.pathArray);
     items.shift(); // remove ["HOME"]
@@ -19,11 +13,7 @@ const MenuPath = ({ menuReader }) => ({ item, onClick }) => {
     const isPenultimate = i => i === pathItems.length - 1;
     const fullPaths = pathItems.flatMap((el, i) => [el, isPenultimate(i) ? null : ' ▶︎ ']);
 
-    const keywords = item.keywords?.map(keyword => {
-        return <span key={keyword} className="keyword">{keyword}</span>
-    });
-
-    return <div className="path" onClick={onClick}>{fullPaths}{keywords}</div>
+    return <span>{fullPaths}</span>
 }
 
 export default MenuPath;
