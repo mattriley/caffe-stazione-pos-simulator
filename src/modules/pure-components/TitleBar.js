@@ -1,5 +1,3 @@
-import "./css/TitleBar.css";
-
 const TitleBar = ({ config }) => () => {
 
     return <header>

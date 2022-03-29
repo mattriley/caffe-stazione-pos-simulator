@@ -1,5 +1,3 @@
-import './css/MenuScreenPath.css';
-
 const MenuScreenPath = ({ pureComponents, util }) => ({ selectedItem }) => {
 
     if (!selectedItem) return null;

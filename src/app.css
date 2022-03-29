@@ -4,3 +4,230 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.menu-screen {
+    padding: 4px;
+    background-image: linear-gradient(rgb(66 79 157), rgb(126 170 220));  
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-screen-path {
+    padding-top: 20px;
+    margin: 0px auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+  
+.search-bar {
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    align-items: center;
+    margin: 0 30px;
+    position: sticky;
+    top: 0; 
+    background-color: white;
+}
+
+.search-box {
+    padding: 0 80px;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.search-box input {
+    border: solid 2px rgb(19 34 98)	;
+    width: 80%;
+    font-size: 2em;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+}
+    
+.clear {
+    font-size: xx-large;
+    margin-left: 10px;
+    color: rgb(19 34 98);
+    cursor: pointer;
+}
+
+.search-result {
+    margin-top: 20px;
+    cursor: pointer;
+}
+  
+.path-segment {
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.keyword {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: small;
+}
+  
+.search-results {
+    margin: 0px auto;
+    width: 400px;
+    white-space: nowrap;
+}
+
+.single-search-result {
+    margin: 0px auto;
+    text-align: center;
+    /* width: 400px; */
+    white-space: nowrap;
+}
+
+
+header {
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+    font-size: .8rem;
+}
+
+header a {
+    padding-left: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.title-bar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    background-color: black;
+    padding: 0.5rem;
+    padding: 0.2rem 1.5rem;
+    border-top: solid 2px white;
+    white-space: nowrap;
+}
+
+.title-bar .left {
+    text-align: left;
+}
+
+.title-bar .right {
+    text-align: right;
+}
+
+.title-bar .app-name {
+    padding: 0;
+    margin: 0;
+    
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.author {
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: .1;
+    }
+}  
+
+.menu-button {
+    color: black;
+}
+
+.menu-button.selected-true {
+    animation: blinker 1s linear infinite !important;
+}
+
+.menu-button.span-1 {
+    width: 90px;
+    width: 45px;
+    width: 60px;
+}
+
+.menu-button.span-2 {
+    width: 184px;
+    width: 94px;
+    width: 124px;
+}
+
+.menu-button {    
+    height: 75px;
+    height: 40px;
+    height: 55px;
+    margin: 2px;
+    font-size: 15px;
+    font-size: .4em;
+    font-size: 9px;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+    font-weight: bold;
+};
+
+
+
+.text-color-black {
+    color: black;
+}
+
+.text-color-white {
+    color: white;
+}
+
+.back-color-yellow {
+    background-color: rgb(209 201 46);
+}
+
+.back-color-pink {
+    background-color: rgb(191 111 208);
+}
+
+.back-color-red {
+    background-color: rgb(144 48 32);
+}
+
+.back-color-green {
+    background-color: rgb(94 169 35);
+}
+
+.back-color-purple {
+    background-color: rgb(114 59 163);
+}
+
+.back-color-blue {
+    background-color: rgb(44 101 158);
+}
+
+.back-color-money {
+    background-color: rgb(17 7 186);
+}
+
+.back-color-orange {
+    background-color: rgb(186	119	51	);
+}
+
+.back-color-white {
+    background-color: rgb(237 229 217);
+}
+
+.back-color-gray {
+    background-color: rgb(183 178 170);
+}
+
+.back-color-brown {
+    background-color: rgb(152 119 54);
+}

@@ -1,5 +1,3 @@
-import './css/SearchResult.css';
-
 const SearchResult = ({ pureComponents }) => ({ item, onClick }) => {
 
     if (!item.labelSingleLine) return null;

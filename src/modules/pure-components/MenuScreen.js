@@ -1,5 +1,3 @@
-import './css/MenuScreen.css';
-
 const MenuScreen = ({ pureComponents, menuReader }) => ({ path, selectedItem }) => {
 
     const submenu = menuReader.getSubmenu(path);

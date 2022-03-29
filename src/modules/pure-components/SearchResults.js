@@ -1,5 +1,3 @@
-import './css/SearchResults.css';
-
 const SearchResults = ({ pureComponents }) => ({ items, onSelection, selectedItem }) => {
     const results = selectedItem ? [selectedItem] : items;
 
