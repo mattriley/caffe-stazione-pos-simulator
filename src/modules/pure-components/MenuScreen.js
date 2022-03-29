@@ -1,5 +1,4 @@
 import './css/MenuScreen.css';
-import _ from 'lodash';
 
 const MenuScreen = ({ pureComponents, menuReader }) => ({ path, selectedItem }) => {
 
