@@ -1,7 +1,7 @@
 const App = ({ pureComponents, components, menuReader }) => {
 
     return <div>
-        <pureComponents.TitleBar />
+        <pureComponents.DevBar />
         <components.SearchScreen {...{ pureComponents, menuReader }} />
     </div>
 

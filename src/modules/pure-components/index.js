@@ -6,6 +6,6 @@ import SearchResult from './SearchResult'
 import MenuScreenPath from './MenuScreenPath';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
-import TitleBar from './TitleBar';
+import DevBar from './DevBar';
 
-export default { MenuButton, MenuItemKeywords, MenuItemPath, MenuScreen, SearchResult, MenuScreenPath, SearchBar, SearchResults, TitleBar };
+export default { MenuButton, MenuItemKeywords, MenuItemPath, MenuScreen, SearchResult, MenuScreenPath, SearchBar, SearchResults, DevBar };

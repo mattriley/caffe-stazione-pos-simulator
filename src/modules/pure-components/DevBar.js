@@ -1,7 +1,7 @@
-const TitleBar = ({ config }) => () => {
+const DevBar = ({ config }) => () => {
 
     return <header>
-        <div className="title-bar">
+        <div className="dev-bar">
             <div className="left">
                 <span className="app-name">{config.app.name}</span>
                 <a className="author" target="_blank" href={config.author.profile}>by {config.author.name}</a>
@@ -14,4 +14,4 @@ const TitleBar = ({ config }) => () => {
 
 };
 
-export default TitleBar;
+export default DevBar;
