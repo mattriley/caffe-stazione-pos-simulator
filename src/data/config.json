@@ -1,19 +1,7 @@
 {
-    "gtag": {
-        "trackingId": "",
-        "enabled": false
-    },
-    "sentry": {
-        "dsn": "",
-        "enabled": false
-    },
     "app": {
-        "name": "Simulazione Stazione • Stazione Simulation",
+        "name": "Stazione Simulation",
         "issues": "https://github.com/mattriley/stazione-simulation/issues",
         "source": "https://github.com/mattriley/stazione-simulation"
-    },
-    "author": {
-        "name": "Matt Riley",
-        "profile": "https://www.linkedin.com/in/mattrileyau/"
     }
 }

@@ -1,1 +1,1 @@
-# Simulazione Stazione • Stazione Simulation
+# Stazione Simulation
