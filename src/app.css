@@ -8,19 +8,22 @@ body {
 .menu-screen {
     padding: 4px;
     background-image: linear-gradient(rgb(66 79 157), rgb(126 170 220));  
-    display: inline-block;
     margin-right: 10px;
+    display: grid; 
+    grid-template-columns: repeat(5, 60px);
+    grid-template-rows: repeat(8, 55px);
+    gap: 6px;
 }
 
 .menu-screen-path {
     padding-top: 20px;
-    margin: 0px auto;
-    width: 100%;
-    display: block;
     text-align: center;
     white-space: nowrap;
+
+    display: flex;
+    justify-content: center;
 }
-  
+
 .search-bar {
     display: grid;
     grid-template-columns: 200px auto 200px;
@@ -86,43 +89,18 @@ body {
 
 @keyframes blinker {
     50% {
-      opacity: .1;
+      background-color: white;
     }
 }  
-
-.menu-row {
-    height: 61px;
-}
 
 .menu-button {
     position: relative;
     display: inline-block;
     background-color: white;
     color: black;
-    height: 55px;
-    margin: 2px;    
     border: 1px solid white;
-}
-
-.menu-button > .background {
-    position: absolute;
-    z-index: 100;
-    width: 100%;
-    height: 100%;
-}
-
-.menu-button.selected-true > .background {
-    animation: blinker 1s linear infinite !important;
-}
-
-.menu-button > .foreground {
-    position: absolute;
-    z-index: 110;
-    width: 100%;
-    height: 100%;
-    /* white-space: nowrap; */
-    /* text-align: center; */
-    /* vertical-align: middle; */
+    box-sizing: border-box;
+    
     font-size: 9px;
     font-weight: bold;
     font-family: helvetica;
@@ -132,12 +110,18 @@ body {
     justify-content: center;
 }
 
+.menu-button.selected-true {
+    animation: blinker 1s linear infinite !important;
+}
+
 .menu-button.span-1 {
-    width: 60px;
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
 .menu-button.span-2 {
-    width: 124px;
+    grid-column: span 2;
+    grid-row: span 1;
 }
 
 .text-color-black {

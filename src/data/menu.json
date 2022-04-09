@@ -366,166 +366,64 @@
                             "backColor": "yellow",
                             "keywords": [
                                 "CHEESE"
-                            ]
+                            ],
+                            "x": 1,
+                            "y": 1
                         },
                         {
                             "label": "FUNGHI\n PIZZE",
                             "backColor": "yellow",
                             "keywords": [
                                 "MUSHROOM"
-                            ]
+                            ],
+                            "x": 2,
+                            "y": 1
                         },
                         {
                             "label": "SALAMI\n RICCOTA",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "x": 3,
+                            "y": 1
                         },
                         {
                             "label": "ZUCCHIN\nI PIZZE",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "x": 5,
+                            "y": 1
                         },
                         {
                             "label": "CAPS/GO\nATS\n PIZZE",
                             "backColor": "yellow",
-                            "comments": "is CAPS = CAPSICUM? What is GOATS?"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
+                            "comments": "is CAPS = CAPSICUM? What is GOATS?",
+                            "x": 2,
+                            "y": 2
                         },
                         {
                             "label": "ZATAR\n PIZZA",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "x": 4,
+                            "y": 2
                         },
                         {
                             "label": "SALAMI/\nFUNGHI",
                             "backColor": "yellow",
                             "keywords": [
                                 "MUSHROOM"
-                            ]
+                            ],
+                            "x": 1,
+                            "y": 3
                         },
                         {
                             "label": "SALAMI/\nOLIVES",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
-                        },
-                        {
-                            "label": "",
-                            "backColor": "yellow"
+                            "backColor": "yellow",
+                            "x": 2,
+                            "y": 3
                         },
                         {
                             "label": "FOOD INST",
                             "backColor": "white",
+                            "x": 4,
+                            "y": 8,
                             "span": 2
                         }
                     ]
