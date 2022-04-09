@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/stazione-simulation/static/css/main.edf57881.css",
-    "main.js": "/stazione-simulation/static/js/main.a587182a.js",
+    "main.css": "/stazione-simulation/static/css/main.328adcb3.css",
+    "main.js": "/stazione-simulation/static/js/main.d3df6128.js",
     "index.html": "/stazione-simulation/index.html",
-    "main.edf57881.css.map": "/stazione-simulation/static/css/main.edf57881.css.map",
-    "main.a587182a.js.map": "/stazione-simulation/static/js/main.a587182a.js.map"
+    "main.328adcb3.css.map": "/stazione-simulation/static/css/main.328adcb3.css.map",
+    "main.d3df6128.js.map": "/stazione-simulation/static/js/main.d3df6128.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf57881.css",
-    "static/js/main.a587182a.js"
+    "static/css/main.328adcb3.css",
+    "static/js/main.d3df6128.js"
   ]
 }
