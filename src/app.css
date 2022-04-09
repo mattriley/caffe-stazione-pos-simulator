@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
 }
-  
+
 .search-bar {
     display: grid;
     grid-template-columns: 200px auto 200px;
