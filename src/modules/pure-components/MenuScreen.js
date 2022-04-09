@@ -1,8 +1,21 @@
+const MAX_NUMBER_OF_BUTTONS=40;
+
+const getSum = (total, item) => {
+  const width = item.span ?? 1;
+  return total + width;
+}
+
 const MenuScreen =
   ({ pureComponents, menuReader }) =>
   ({ path, selectedItem }) => {
     const submenu = menuReader.getSubmenu(path);
     if (!submenu.items) return null;
+
+    const numberButtons = submenu.items.reduce(getSum, 0);
+
+    const spacers = [...Array(MAX_NUMBER_OF_BUTTONS - numberButtons)].map(i => {
+      return <pureComponents.SpacerButton backColor={submenu.backColor}/>;
+    });
 
     const isSelected = menuReader.isSelected(selectedItem);
 
@@ -17,7 +30,7 @@ const MenuScreen =
       );
     });
 
-    return <div className="menu-screen">{items}</div>;
+    return <div className="menu-screen">{items}{spacers}</div>;
   };
 
 export default MenuScreen;

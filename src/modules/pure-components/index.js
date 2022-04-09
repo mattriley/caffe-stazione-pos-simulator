@@ -7,5 +7,6 @@ import MenuScreenPath from './MenuScreenPath';
 import SearchBar from './SearchBar';
 import SearchResults from './SearchResults';
 import DevBar from './DevBar';
+import SpacerButton from './SpacerButton';
 
-export default { MenuButton, MenuItemKeywords, MenuItemPath, MenuScreen, SearchResult, MenuScreenPath, SearchBar, SearchResults, DevBar };
+export default { MenuButton, MenuItemKeywords, MenuItemPath, MenuScreen, SearchResult, MenuScreenPath, SearchBar, SearchResults, DevBar, SpacerButton };
