@@ -6,7 +6,6 @@ const loadMenu = _menu => {
 
     const tree = {};
     const allItems = [];
-    const rowSpan = 5;
 
     let bevInst, foodInst;
 
@@ -78,21 +77,12 @@ const loadMenu = _menu => {
             _.set(tree, setPath, newItem);
             const res = transformMenuBetter(newItem, newPath);
             newItem.items = res.items;
-            newItem.rows = res.rows;
             return newItem;
         });
 
         if (!items) return {}
 
-        const { rows = [] } = items?.reduce((acc, item) => {
-            acc.row.push(item);
-            acc.span += item.span ?? 1;
-            if (acc.span < rowSpan) return acc;
-            acc.rows.push(acc.row);
-            return { ...acc, row: [], span: 0 };
-        }, { rows: [], row: [], span: 0 });
-
-        return { items, rows };
+        return { items };
 
     };
 
