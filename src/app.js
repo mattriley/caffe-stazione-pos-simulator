@@ -5,7 +5,7 @@ import boot from './boot';
 import data from './data';
 
 const { config } = data;
-const { modules } = boot({ config, data });
+const modules = boot({ config, data });
 const { components } = modules;
 
 window.document.title = config.app.name;

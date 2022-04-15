@@ -8,7 +8,7 @@ const boot = ({ config, data }) => {
     const compose = moduleComposer(modules);
     const menuReader = compose('menuReader', { menu, util });
     compose('pureComponents', { menuReader, util, config });
-    return compose.done();
+    return compose.getModules();
 
 }
 
