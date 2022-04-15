@@ -5,14 +5,13 @@ import boot from './boot';
 import data from './data';
 
 const { config } = data;
-const modules = boot({ config, data });
-const { components } = modules;
+const { components } = boot({ config, data });
 
 window.document.title = config.app.name;
 
 ReactDOM.render(
     <React.StrictMode>
-        <components.App {...modules} />
+        <components.App />
     </React.StrictMode >,
     document.getElementById('root')
 );

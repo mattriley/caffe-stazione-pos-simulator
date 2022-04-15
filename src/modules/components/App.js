@@ -1,4 +1,4 @@
-const App = ({ pureComponents, components, menuReader }) => {
+const App = ({ pureComponents, components, menuReader }) => () => {
 
     return <div>
         <pureComponents.DevBar />

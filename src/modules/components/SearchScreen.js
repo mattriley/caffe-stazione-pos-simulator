@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const SearchScreen = ({ pureComponents, menuReader }) => {
+const SearchScreen = ({ pureComponents, menuReader }) => () => {
 
     const [searchResults, setSearchResults] = useState(menuReader.searchMenu(''));
     const [selectedItem, setSelectedItem] = useState(undefined);
