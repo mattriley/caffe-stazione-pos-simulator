@@ -1,0 +1,3 @@
+#!/bin/bash
+
+BUILD_PATH="$DEPLOY_PATH" PUBLIC_URL="/$PROJECT_NAME" react-scripts build

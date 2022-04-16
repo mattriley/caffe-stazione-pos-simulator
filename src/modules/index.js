@@ -4,4 +4,10 @@ import pureComponents from './pure-components';
 import startup from './startup';
 import util from './util';
 
-export default { components, menuReader, pureComponents, startup, util };
+export default {
+    components,
+    menuReader,
+    pureComponents,
+    startup,
+    util
+};
