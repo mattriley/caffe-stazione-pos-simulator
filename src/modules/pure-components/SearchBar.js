@@ -12,7 +12,7 @@ const SearchBar = () => ({ onSearch }) => {
 
     return <div className="search-bar">
         <div>
-            <img src='caffe-stazione.jpg' />
+            <img src="caffe-stazione.jpg" alt="Caffe Stazione logo" />
         </div>
         <div className="search-box">
             <input ref={searchInputRef} type="input" onChange={e => onSearch(e.target.value)} autoFocus />
