@@ -1,13 +1,13 @@
 import './app.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import boot from './boot';
+import compose from './compose';
 import data from './data';
 import loadMenu from './load-menu';
 
 const menu = loadMenu(data.menu);
 const { config } = data;
-const { components, composition } = boot({ config, menu });
+const { components, composition } = compose({ config, menu });
 const app = { config, ...composition };
 window.app = app;
 window.document.title = config.app.name;
