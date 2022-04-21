@@ -1,13 +1,7 @@
-import getMenuItem from './get-menu-item';
-import getMenuItemPath from './get-menu-item-path';
-import getSubmenu from './get-submenu';
-import isSelected from './is-selected';
-import searchMenu from './search-menu';
-
-export default {
-    getMenuItem,
-    getMenuItemPath,
-    getSubmenu,
-    isSelected,
-    searchMenu
+module.exports = {
+    getMenuItemPath: require('./get-menu-item-path'),
+    getMenuItem: require('./get-menu-item'),
+    getSubmenu: require('./get-submenu'),
+    isSelected: require('./is-selected'),
+    searchMenu: require('./search-menu')
 };

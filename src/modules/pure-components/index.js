@@ -1,21 +1,11 @@
-import DevBar from './DevBar';
-import MenuButton from './MenuButton';
-import MenuItemKeywords from './MenuItemKeywords';
-import MenuItemPath from './MenuItemPath';
-import MenuScreen from './MenuScreen';
-import MenuScreenPath from './MenuScreenPath';
-import SearchBar from './SearchBar';
-import SearchResult from './SearchResult';
-import SearchResults from './SearchResults';
-
-export default {
-    DevBar,
-    MenuButton,
-    MenuItemKeywords,
-    MenuItemPath,
-    MenuScreen,
-    MenuScreenPath,
-    SearchBar,
-    SearchResult,
-    SearchResults
+module.exports = {
+    DevBar: require('./DevBar'),
+    MenuButton: require('./MenuButton'),
+    MenuItemKeywords: require('./MenuItemKeywords'),
+    MenuItemPath: require('./MenuItemPath'),
+    MenuScreen: require('./MenuScreen'),
+    MenuScreenPath: require('./MenuScreenPath'),
+    SearchBar: require('./SearchBar'),
+    SearchResult: require('./SearchResult'),
+    SearchResults: require('./SearchResults')
 };

@@ -1,7 +1,4 @@
-import App from './App';
-import SearchScreen from './SearchScreen';
-
-export default {
-    App,
-    SearchScreen
+module.exports = {
+    App: require('./App'),
+    SearchScreen: require('./SearchScreen')
 };
