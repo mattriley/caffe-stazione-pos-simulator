@@ -1,4 +1,5 @@
 #!/bin/bash
 
-./task itermocil
+./tasks/itermocil-install
+./tasks/itermocil
 code .

@@ -1,4 +1,10 @@
-node_modules
+*output
+temp
 build
-iTermocil.yml
+coverage
+node_modules
+config.*
+itermocil.yml
+.parcel-cache
+.vscode
 .DS_Store
