@@ -1,14 +1,10 @@
-import moduleComposer from 'module-composer';
-import modules from './modules';
-const { util } = modules;
+const composer = require('module-composer');
+const modules = require('./modules');
 
-const compose = ({ config, menu }) => {
+module.exports = ({ config }) => {
 
-    const compose = moduleComposer(modules);
-    const { menuReader } = compose('menuReader', { menu, util });
-    const { pureComponents } = compose('pureComponents', { menuReader, util, config });
-    return compose('components', { pureComponents, menuReader });
+    const compose = composer(modules);
+    const { util } = compose('util');
+    return compose('services', { config, util });
 
-}
-
-export default compose;
+};
