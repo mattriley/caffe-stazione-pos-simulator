@@ -1,9 +1,9 @@
 import './app.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import compose from './compose';
-import data from './data';
-import loadMenu from './load-menu';
+import compose from './compose.js';
+import data from './data/index.js';
+import loadMenu from './load-menu.js';
 
 const menu = loadMenu(data.menu);
 const { config } = data;
