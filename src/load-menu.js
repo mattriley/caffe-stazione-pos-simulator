@@ -1,6 +1,7 @@
 import _ from 'lodash';
+import _menu from './menu.json';
 
-const loadMenu = _menu => {
+const loadMenu = () => {
 
     let id = 0;
 

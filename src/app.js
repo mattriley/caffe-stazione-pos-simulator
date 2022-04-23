@@ -1,17 +1,14 @@
 import './app.css';
-import React from 'react';
 import { createRoot } from 'react-dom/client';
+import React from 'react';
 import compose from './compose.js';
-import data from './data/index.js';
 import loadMenu from './load-menu.js';
+import config from './default-config.json';
 
-const menu = loadMenu(data.menu);
-const { config } = data;
+const menu = loadMenu();
 const { components, composition } = compose({ config, menu });
-const app = { config, ...composition };
-window.app = app;
+window.app = { config, ...composition };
 window.document.title = config.app.name;
-console.log({ app });
 
 const container = document.getElementById('app');
 const root = createRoot(container);
