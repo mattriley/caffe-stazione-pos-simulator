@@ -1,3 +1,5 @@
-module.exports = {
-    inflate: require('./inflate')
+import inflate from './inflate.js';
+
+export default {
+    inflate
 };

@@ -1,4 +1,7 @@
-module.exports = {
-    App: require('./App'),
-    SearchScreen: require('./SearchScreen')
+import App from './App.js';
+import SearchScreen from './SearchScreen.js';
+
+export default {
+    App,
+    SearchScreen
 };
