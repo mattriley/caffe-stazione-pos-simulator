@@ -1,11 +1,6 @@
-import components from './components/index.js';
-import menuReader from './menu-reader/index.js';
-import pureComponents from './pure-components/index.js';
-import util from './util/index.js';
-
-export default {
-    components,
-    menuReader,
-    pureComponents,
-    util
+module.exports = {
+    components: require('./components'),
+    menuReader: require('./menu-reader'),
+    pureComponents: require('./pure-components'),
+    util: require('./util')
 };
