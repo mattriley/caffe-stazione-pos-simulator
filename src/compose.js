@@ -1,10 +1,10 @@
-import moduleComposer from 'module-composer';
+import composer from 'module-composer';
 import modules from './modules/index.js';
 import defaultConfig from './default-config.json';
 
 const compose = (...configs) => {
 
-    const { compose, config } = moduleComposer(modules, defaultConfig, ...configs);
+    const { compose, config } = composer(modules, defaultConfig, ...configs);
     const { menu } = config;
     const { util } = compose('util');
     const { menuReader } = compose('menuReader', { menu, util });

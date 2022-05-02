@@ -3,4 +3,5 @@
 . ./task-vars-default
 
 export INDEXGEN_OPTIONS="--fullySpecified"
+export ITERMOCIL_TASKS=("edit" "indexgen-watch" "start")
 export ESLINT_PATHS=("$SRC")

@@ -21,6 +21,7 @@
         "@testing-library/user-event": "^14.1.1",
         "chokidar-cli": "^3.0.0",
         "eslint-plugin-react": "^7.29.4",
+        "husky": "^7.0.4",
         "module-indexgen": "^0.12.0",
         "react-scripts": "5.0.1"
     },
