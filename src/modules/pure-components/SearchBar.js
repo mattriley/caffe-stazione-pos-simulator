@@ -8,7 +8,7 @@ const SearchBar = () => ({ onSearch }) => {
         searchInputRef.current.value = '';
         searchInputRef.current.focus();
         onSearch('');
-    }
+    };
 
     return <div className="search-bar">
         <div>
@@ -19,7 +19,7 @@ const SearchBar = () => ({ onSearch }) => {
             <span className="clear" onClick={clear}>🅧</span>
         </div>
         <div></div>
-    </div>
-}
+    </div>;
+};
 
 export default SearchBar;

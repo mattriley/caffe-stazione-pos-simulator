@@ -4,7 +4,7 @@ const isSelected = ({ util }) => selectedItem => {
 
     return item => {
         return !!selectedPathIncrements.find(path => path === item.pathArray.join('.'));
-    }
-}
+    };
+};
 
 export default isSelected;

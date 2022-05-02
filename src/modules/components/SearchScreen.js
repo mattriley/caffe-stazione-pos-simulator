@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const SearchScreen = ({ pureComponents, menuReader }) => () => {
 
@@ -9,7 +9,7 @@ const SearchScreen = ({ pureComponents, menuReader }) => () => {
         const results = menuReader.searchMenu(term);
         const item = results.length === 1 ? results[0] : undefined;
         onSelection(item, results);
-    }
+    };
 
     const onSelection = (item, results = [item]) => {
         setSelectedItem(item);
@@ -20,7 +20,7 @@ const SearchScreen = ({ pureComponents, menuReader }) => () => {
         <pureComponents.SearchBar onSearch={onSearch} />
         <pureComponents.SearchResults items={searchResults} onSelection={onSelection} />
         <pureComponents.MenuScreenPath selectedItem={selectedItem} />
-    </div>
+    </div>;
 
 };
 

@@ -6,7 +6,7 @@ const MenuButton = () => ({ item, selected = false }) => {
         span-${span} selected-${selected}
         back-color-${backColor}
         text-color-${textColor}
-    `} dangerouslySetInnerHTML={buttonText} />
-}
+    `} dangerouslySetInnerHTML={buttonText} />;
+};
 
 export default MenuButton;

@@ -6,7 +6,7 @@ const SearchResult = ({ pureComponents }) => ({ item, onClick }) => {
     return <div className="search-result" onClick={onClick}>
         <pureComponents.MenuItemPath item={item} />
         <pureComponents.MenuItemKeywords item={item} />
-    </div>
-}
+    </div>;
+};
 
 export default SearchResult;

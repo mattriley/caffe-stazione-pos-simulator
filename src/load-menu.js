@@ -64,7 +64,7 @@ const loadMenu = () => {
             }
 
             const searchTerms = [...newPath, ...keywords]
-                .map(term => term.replace('W/', 'WITH'))
+                .map(term => term.replace('W/', 'WITH'));
 
             const searchText = searchTerms.join(' ');
 
@@ -81,7 +81,7 @@ const loadMenu = () => {
             return newItem;
         });
 
-        if (!items) return {}
+        if (!items) return {};
 
         return { items };
 
@@ -92,6 +92,6 @@ const loadMenu = () => {
 
     return { tree, list: allItems };
 
-}
+};
 
 export default loadMenu;
