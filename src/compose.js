@@ -1,6 +1,6 @@
 import composer from 'module-composer';
 import modules from './modules/index.js';
-import defaultConfig from './default-config.json';
+import defaultConfig from './default-config.js';
 
 const compose = (...configs) => {
 

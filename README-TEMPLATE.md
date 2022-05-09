@@ -5,11 +5,6 @@ A POS item locator side-car application and experiment with PURE COMPONENTS in R
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Background](#background)
-- [Architecture](#architecture)
-
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Background
@@ -32,13 +27,4 @@ The key features designed to alleviate the pain points include:
 
 ## Architecture
 
-```mermaid
-graph TD;
-    components-->pureComponents;
-    components-->menuReader;
-    menuReader-->menu;
-    menuReader-->util;
-    pureComponents-->menuReader;
-    pureComponents-->util;
-    pureComponents-->config;
-```
+<%- moduleGraph() %>
