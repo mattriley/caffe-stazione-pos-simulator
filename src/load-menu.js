@@ -18,14 +18,11 @@ const loadMenu = () => {
 
             const key = item.label.replaceAll('\n', '');
 
-            const pathStr = path.concat(key).join('.');
-
-
-            if (pathStr.endsWith('.BEV INST')) {
+            if (key === 'BEV INST') {
                 item.items = beverageInstructions.items;
             }
 
-            if (pathStr.endsWith('.FOOD INST')) {
+            if (key === 'FOOD INST') {
                 item.items = foodInstructions.items;
             }
 
