@@ -4,8 +4,8 @@ const MenuItemPath = ({ menuReader }) => ({ item }) => {
     items.shift(); // remove ["HOME"]
 
     const pathItems = items.map(item => {
-        const { labelSingleLine, backColor, textColor } = item;
-        const label = labelSingleLine.length ? labelSingleLine : '(BLANK)';
+        const { name, backColor, textColor } = item;
+        const label = name.length ? name : '(BLANK)';
         const className = `path-segment back-color-${backColor} text-color-${textColor}`.toLowerCase();
         return <span key={label} className={className}>{label}</span>;
     });

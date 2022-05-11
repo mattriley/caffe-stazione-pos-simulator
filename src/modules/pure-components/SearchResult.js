@@ -1,6 +1,6 @@
 const SearchResult = ({ pureComponents }) => ({ item, onClick }) => {
 
-    if (!item.labelSingleLine) return null;
+    if (!item.name) return null;
     if (item.items) return null;
 
     return <div className="search-result" onClick={onClick}>

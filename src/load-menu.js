@@ -16,23 +16,23 @@ const loadMenu = () => {
 
             id++;
 
-            const key = item.label.replaceAll('\n', '');
+            item.name = item.label.replaceAll('\n', '');
 
-            if (key === 'BEV INST') {
+            if (item.name === 'BEV INST') {
                 item.items = beverageInstructions.items;
             }
 
-            if (key === 'FOOD INST') {
+            if (item.name === 'FOOD INST') {
                 item.items = foodInstructions.items;
             }
 
-            item.labelSingleLine = key;
-            const newPath = path.concat(key);
+            const words = item.name.split(' ');
+            const newPath = path.concat(item.name);
 
             const keywords = item.keywords ?? [];
 
             Object.entries(abbreviations).forEach(([abbr, full]) => {
-                if (item.labelSingleLine.split(' ').find(word => word === abbr)) {
+                if (words.find(word => word === abbr)) {
                     keywords.push(full);
                 }
             });
