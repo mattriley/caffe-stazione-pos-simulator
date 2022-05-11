@@ -1,4 +1,11 @@
 {
+    "abbreviations": {
+        "M/SHAKE": "MILKSHAKE",
+        "LGE": "LARGE",
+        "SML": "SMALL",
+        "SM": "SMALL",
+        "GLS": "GLASS"
+    },
     "items": [
         {
             "label": "FOOD INST",

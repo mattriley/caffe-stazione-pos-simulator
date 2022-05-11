@@ -1,6 +1,8 @@
 import _ from 'lodash';
 import _menu from './menu.json';
 
+const { abbreviations } = _menu;
+
 const loadMenu = () => {
 
     let id = 0;
@@ -43,25 +45,12 @@ const loadMenu = () => {
 
             const keywords = item.keywords ?? [];
 
-            if (item.labelSingleLine.includes('M/SHAKE')) {
-                keywords.push('MILKSHAKE');
-            }
+            Object.entries(abbreviations).forEach(([abbr, full]) => {
+                if (item.labelSingleLine.split(' ').find(word => word === abbr)) {
+                    keywords.push(full);
+                }
+            });
 
-            if (item.labelSingleLine.includes('LGE ')) {
-                keywords.push('LARGE');
-            }
-
-            if (item.labelSingleLine.includes('SML ')) {
-                keywords.push('SMALL');
-            }
-
-            if (item.labelSingleLine.includes('SM ')) {
-                keywords.push('SMALL');
-            }
-
-            if (item.labelSingleLine.includes('GLS ')) {
-                keywords.push('GLASS');
-            }
 
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('W/', 'WITH'));
