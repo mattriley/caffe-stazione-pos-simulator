@@ -27,16 +27,11 @@ const loadMenu = () => {
             }
 
             const words = item.name.split(' ');
+            const keywords = Object.entries(abbreviations).reduce((acc, [abbr, full]) => {
+                return words.indexOf(abbr) > -1 ? acc.concat(full) : acc;
+            }, item.keywords ?? []);
+
             const newPath = path.concat(item.name);
-
-            const keywords = item.keywords ?? [];
-
-            Object.entries(abbreviations).forEach(([abbr, full]) => {
-                if (words.find(word => word === abbr)) {
-                    keywords.push(full);
-                }
-            });
-
 
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('W/', 'WITH'));
