@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import _menu from './menu.json';
 
-const { abbreviations } = _menu;
+const { abbreviations, foodInstructions, beverageInstructions } = _menu;
 
 const loadMenu = () => {
 
@@ -9,8 +9,6 @@ const loadMenu = () => {
 
     const tree = {};
     const allItems = [];
-
-    let bevInst, foodInst;
 
     const transformMenuBetter = (menu, path = []) => {
 
@@ -22,22 +20,13 @@ const loadMenu = () => {
 
             const pathStr = path.concat(key).join('.');
 
-            if (pathStr === 'BEV INST') {
-                bevInst = item;
-                return [];
-            }
 
             if (pathStr.endsWith('.BEV INST')) {
-                item.items = bevInst.items;
-            }
-
-            if (pathStr === 'FOOD INST') {
-                foodInst = item;
-                return [];
+                item.items = beverageInstructions.items;
             }
 
             if (pathStr.endsWith('.FOOD INST')) {
-                item.items = foodInst.items;
+                item.items = foodInstructions.items;
             }
 
             item.labelSingleLine = key;
