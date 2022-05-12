@@ -1,0 +1,3 @@
+#!/bin/bash
+  
+./tasks/lib/react-scripts-test-watch
