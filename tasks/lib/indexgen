@@ -3,7 +3,7 @@
 . ./task-vars
 
 npx --no indexgen \
-    ${INDEXGEN_PATHS[@]} \
+    "${INDEXGEN_PATHS[@]}" \
     --type "$INDEXGEN_TYPE" \
     "$INDEXGEN_OPTIONS" \
     "$@"
