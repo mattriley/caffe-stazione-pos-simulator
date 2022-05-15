@@ -28,7 +28,8 @@
         "eslint-plugin-react": "^7.29.4",
         "husky": "^8.0.1",
         "module-indexgen": "^0.12.5",
-        "react-scripts": "5.0.1"
+        "react-scripts": "5.0.1",
+        "task-library": "^0.0.17"
     },
     "eslintConfig": {
         "extends": [

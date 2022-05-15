@@ -1,7 +1,5 @@
 #!/bin/bash
 
-. ./task-vars-default
-
 export INDEXGEN_OPTIONS="--fullySpecified"
 export ESLINT_PATHS=("$SRC")
 
