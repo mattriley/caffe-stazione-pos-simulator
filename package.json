@@ -29,7 +29,7 @@
         "husky": "^8.0.1",
         "module-indexgen": "^0.12.5",
         "react-scripts": "5.0.1",
-        "task-library": "^0.0.17"
+        "task-library": "^0.0.18"
     },
     "eslintConfig": {
         "extends": [
