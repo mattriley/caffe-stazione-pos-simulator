@@ -1,4 +1,5 @@
-const MenuButton = () => ({ item, selected = false }) => {
+export default () => ({ item, selected = false }) => {
+
     const { label, backColor, textColor = 'black', span = 1 } = item;
     const buttonText = { __html: label.replaceAll('\n', '<br>') };
     return <div className={`
@@ -7,6 +8,5 @@ const MenuButton = () => ({ item, selected = false }) => {
         back-color-${backColor}
         text-color-${textColor}
     `} dangerouslySetInnerHTML={buttonText} />;
-};
 
-export default MenuButton;
+};

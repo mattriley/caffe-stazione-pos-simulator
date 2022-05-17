@@ -1,4 +1,4 @@
-const App = ({ pureComponents, components, menuReader }) => () => {
+export default ({ pureComponents, components, menuReader }) => () => {
 
     return <div>
         <pureComponents.DevBar />
@@ -6,5 +6,3 @@ const App = ({ pureComponents, components, menuReader }) => () => {
     </div>;
 
 };
-
-export default App;

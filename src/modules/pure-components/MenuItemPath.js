@@ -1,4 +1,4 @@
-const MenuItemPath = ({ menuReader }) => ({ item }) => {
+export default ({ menuReader }) => ({ item }) => {
 
     const items = menuReader.getMenuItemPath(item.pathArray);
     items.shift(); // remove ["HOME"]
@@ -14,5 +14,3 @@ const MenuItemPath = ({ menuReader }) => ({ item }) => {
     return pathItems.flatMap((el, i) => [el, isPenultimate(i) ? null : ' ▶︎ ']);
 
 };
-
-export default MenuItemPath;

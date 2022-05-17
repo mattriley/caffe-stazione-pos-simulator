@@ -1,4 +1,4 @@
-const SearchResult = ({ pureComponents }) => ({ item, onClick }) => {
+export default ({ pureComponents }) => ({ item, onClick }) => {
 
     if (!item.name) return null;
     if (item.items) return null;
@@ -7,6 +7,5 @@ const SearchResult = ({ pureComponents }) => ({ item, onClick }) => {
         <pureComponents.MenuItemPath item={item} />
         <pureComponents.MenuItemKeywords item={item} />
     </div>;
-};
 
-export default SearchResult;
+};

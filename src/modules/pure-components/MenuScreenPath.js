@@ -1,21 +1,19 @@
-const MenuScreenPath =
-  ({ pureComponents, util }) =>
-      ({ selectedItem }) => {
-          if (!selectedItem) return null;
+export default ({ pureComponents, util }) => ({ selectedItem }) => {
 
-          const pathIncrements = util.inflate(selectedItem.pathArray);
+    if (!selectedItem) return null;
 
-          const menuScreens = pathIncrements.map(path => {
-              return (
-                  <pureComponents.MenuScreen
-                      key={path}
-                      path={path}
-                      selectedItem={selectedItem}
-                  />
-              );
-          });
+    const pathIncrements = util.inflate(selectedItem.pathArray);
 
-          return <div className="menu-screen-path">{menuScreens}</div>;
-      };
+    const menuScreens = pathIncrements.map(path => {
+        return (
+            <pureComponents.MenuScreen
+                key={path}
+                path={path}
+                selectedItem={selectedItem}
+            />
+        );
+    });
 
-export default MenuScreenPath;
+    return <div className="menu-screen-path">{menuScreens}</div>;
+
+};

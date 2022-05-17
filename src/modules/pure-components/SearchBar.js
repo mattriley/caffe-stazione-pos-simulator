@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchBar = () => ({ onSearch }) => {
+export default () => ({ onSearch }) => {
 
     const searchInputRef = React.createRef();
 
@@ -21,5 +21,3 @@ const SearchBar = () => ({ onSearch }) => {
         <div></div>
     </div>;
 };
-
-export default SearchBar;

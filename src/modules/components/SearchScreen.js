@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const SearchScreen = ({ pureComponents, menuReader }) => () => {
+export default ({ pureComponents, menuReader }) => () => {
 
     const [searchResults, setSearchResults] = useState(menuReader.searchMenu(''));
     const [selectedItem, setSelectedItem] = useState(undefined);
@@ -23,5 +23,3 @@ const SearchScreen = ({ pureComponents, menuReader }) => () => {
     </div>;
 
 };
-
-export default SearchScreen;

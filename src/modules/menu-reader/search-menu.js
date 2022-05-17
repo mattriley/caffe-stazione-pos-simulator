@@ -1,4 +1,4 @@
-const searchMenu = ({ menu }) => term => {
+export default ({ menu }) => term => {
 
     const terms = term.split(' ');
 
@@ -6,5 +6,3 @@ const searchMenu = ({ menu }) => term => {
         return terms.every(term => new RegExp(`${term}`, 'i').test(item.searchText));
     });
 };
-
-export default searchMenu;

@@ -7,7 +7,7 @@ const itemsReplacements = [beverageInstructions, foodInstructions].reduce((acc, 
     return { ...acc, [item.label]: item.items };
 }, {});
 
-const loadMenu = () => {
+export default () => {
 
     let id = 0;
     const tree = {};
@@ -42,5 +42,3 @@ const loadMenu = () => {
     transformRecursive(menu);
     return { tree, list };
 };
-
-export default loadMenu;

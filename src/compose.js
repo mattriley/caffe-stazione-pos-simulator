@@ -2,7 +2,7 @@ import composer from 'module-composer';
 import modules from './modules/index.js';
 import defaultConfig from './default-config.js';
 
-const compose = (...configs) => {
+export default (...configs) => {
 
     const { compose, config } = composer(modules, defaultConfig, ...configs);
     const { menu } = config;
@@ -12,5 +12,3 @@ const compose = (...configs) => {
     return compose('components', { pureComponents, menuReader });
 
 };
-
-export default compose;

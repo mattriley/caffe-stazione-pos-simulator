@@ -1,23 +1,21 @@
-const MenuScreen =
-  ({ pureComponents, menuReader }) =>
-      ({ path, selectedItem }) => {
-          const submenu = menuReader.getSubmenu(path);
-          if (!submenu.items) return null;
+export default ({ pureComponents, menuReader }) => ({ path, selectedItem }) => {
 
-          const isSelected = menuReader.isSelected(selectedItem);
+    const submenu = menuReader.getSubmenu(path);
+    if (!submenu.items) return null;
 
-          const items = submenu.items.map(item => {
-              const selected = isSelected(item);
-              return (
-                  <pureComponents.MenuButton
-                      key={item.id}
-                      selected={selected}
-                      item={item}
-                  />
-              );
-          });
+    const isSelected = menuReader.isSelected(selectedItem);
 
-          return <div className="menu-screen">{items}</div>;
-      };
+    const items = submenu.items.map(item => {
+        const selected = isSelected(item);
+        return (
+            <pureComponents.MenuButton
+                key={item.id}
+                selected={selected}
+                item={item}
+            />
+        );
+    });
 
-export default MenuScreen;
+    return <div className="menu-screen">{items}</div>;
+
+};

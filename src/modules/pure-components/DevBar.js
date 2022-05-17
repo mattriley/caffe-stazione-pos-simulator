@@ -1,4 +1,4 @@
-const DevBar = ({ config }) => () => {
+export default ({ config }) => () => {
 
     return <dev-bar app-name={config.app.name}>
         <a target="_blank" rel="noreferrer" href={config.app.issues}>Send feedback</a>
@@ -6,5 +6,3 @@ const DevBar = ({ config }) => () => {
     </dev-bar>;
 
 };
-
-export default DevBar;
