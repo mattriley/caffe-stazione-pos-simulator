@@ -3,10 +3,9 @@ import _menu from './menu.json';
 
 const { abbreviations, foodInstructions, beverageInstructions } = _menu;
 
-const itemsReplacements = {
-    'BEV INST': beverageInstructions.items,
-    'FOOD INST': foodInstructions.items
-};
+const itemsReplacements = [beverageInstructions, foodInstructions].reduce((acc, item) => {
+    return { ...acc, [item.label]: item.items };
+}, {});
 
 const loadMenu = () => {
 
@@ -22,6 +21,7 @@ const loadMenu = () => {
             id++;
 
             const name = item.label.replaceAll('\n', '');
+
 
             item.items = itemsReplacements[name] ?? item.items;
 
