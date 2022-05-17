@@ -3,6 +3,11 @@ import _menu from './menu.json';
 
 const { abbreviations, foodInstructions, beverageInstructions } = _menu;
 
+const itemsReplacements = {
+    'BEV INST': beverageInstructions.items,
+    'FOOD INST': foodInstructions.items
+};
+
 const loadMenu = () => {
 
     let id = 0;
@@ -10,28 +15,23 @@ const loadMenu = () => {
     const tree = {};
     const allItems = [];
 
-    const transformMenuBetter = (menu, path = []) => {
+    const transformRecursive = (menu, path = []) => {
 
         const items = menu.items?.flatMap(item => {
 
             id++;
 
-            item.name = item.label.replaceAll('\n', '');
+            const name = item.label.replaceAll('\n', '');
 
-            if (item.name === 'BEV INST') {
-                item.items = beverageInstructions.items;
-            }
+            item.items = itemsReplacements[name] ?? item.items;
 
-            if (item.name === 'FOOD INST') {
-                item.items = foodInstructions.items;
-            }
 
-            const words = item.name.split(' ');
+            const words = name.split(' ');
             const keywords = Object.entries(abbreviations).reduce((acc, [abbr, full]) => {
                 return words.indexOf(abbr) > -1 ? acc.concat(full) : acc;
             }, item.keywords ?? []);
 
-            const newPath = path.concat(item.name);
+            const newPath = path.concat(name);
 
             const searchTerms = [...newPath, ...keywords]
                 .map(term => term.replace('W/', 'WITH'));
@@ -40,13 +40,13 @@ const loadMenu = () => {
 
             const pathArray = [...newPath];
 
-            const newItem = { pathArray, id, searchText, keywords, ...item };
+            const newItem = { id, name, pathArray, searchText, keywords, ...item };
 
             allItems.push(newItem);
 
             const setPath = newPath.flatMap(key => ['tree', key]).join('.');
             _.set(tree, setPath, newItem);
-            const res = transformMenuBetter(newItem, newPath);
+            const res = transformRecursive(newItem, newPath);
             newItem.items = res.items;
             return newItem;
         });
@@ -58,7 +58,7 @@ const loadMenu = () => {
     };
 
 
-    transformMenuBetter(_menu);
+    transformRecursive(_menu);
 
     return { tree, list: allItems };
 
