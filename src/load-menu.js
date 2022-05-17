@@ -27,17 +27,13 @@ const loadMenu = () => {
             }, item.keywords ?? []);
 
             const pathArray = parentPath.concat(name);
-
             const searchTerms = [...pathArray, ...keywords].map(term => searchTermReplacements[term] ?? term);
-
             const searchText = searchTerms.join(' ');
-
             const newItem = { ...item, id, name, items, pathArray, searchText, keywords };
-
-            allItems.push(newItem);
 
             const setPath = pathArray.flatMap(key => ['tree', key]).join('.');
             _.set(tree, setPath, newItem);
+            allItems.push(newItem);
             newItem.items = transformRecursive(newItem, pathArray).items;
             return newItem;
         });
