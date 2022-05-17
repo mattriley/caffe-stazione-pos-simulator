@@ -38,8 +38,7 @@ const loadMenu = () => {
 
             const setPath = pathArray.flatMap(key => ['tree', key]).join('.');
             _.set(tree, setPath, newItem);
-            const res = transformRecursive(newItem, pathArray);
-            newItem.items = res.items;
+            newItem.items = transformRecursive(newItem, pathArray).items;
             return newItem;
         });
 
