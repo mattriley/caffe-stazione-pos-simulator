@@ -6,6 +6,9 @@
         "SM": "SMALL",
         "GLS": "GLASS"
     },
+    "searchTermReplacements": {
+        "W/": "WITH"
+    },
     "foodInstructions": {
         "label": "FOOD INST",
         "items": [

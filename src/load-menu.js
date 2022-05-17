@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import _menu from './menu.json';
 
-const { abbreviations, foodInstructions, beverageInstructions } = _menu;
+const { abbreviations, foodInstructions, beverageInstructions, searchTermReplacements } = _menu;
 
 const itemsReplacements = [beverageInstructions, foodInstructions].reduce((acc, item) => {
     return { ...acc, [item.label]: item.items };
@@ -26,22 +26,19 @@ const loadMenu = () => {
                 return words.indexOf(abbr) > -1 ? acc.concat(full) : acc;
             }, item.keywords ?? []);
 
-            const path = parentPath.concat(name);
+            const pathArray = parentPath.concat(name);
 
-            const searchTerms = [...path, ...keywords]
-                .map(term => term.replace('W/', 'WITH'));
+            const searchTerms = [...pathArray, ...keywords].map(term => searchTermReplacements[term] ?? term);
 
             const searchText = searchTerms.join(' ');
-
-            const pathArray = [...path];
 
             const newItem = { ...item, id, name, items, pathArray, searchText, keywords };
 
             allItems.push(newItem);
 
-            const setPath = path.flatMap(key => ['tree', key]).join('.');
+            const setPath = pathArray.flatMap(key => ['tree', key]).join('.');
             _.set(tree, setPath, newItem);
-            const res = transformRecursive(newItem, path);
+            const res = transformRecursive(newItem, pathArray);
             newItem.items = res.items;
             return newItem;
         });
