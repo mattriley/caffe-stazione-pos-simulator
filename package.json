@@ -17,7 +17,7 @@
         "web-vitals": "^2.1.4"
     },
     "devDependencies": {
-        "@babel/preset-react": "^7.16.7",
+        "@babel/preset-react": "^7.17.12",
         "@node-loader/babel": "^2.0.1",
         "@testing-library/jest-dom": "^5.16.4",
         "@testing-library/react": "^13.2.0",
@@ -29,7 +29,7 @@
         "husky": "^8.0.1",
         "module-indexgen": "^0.12.5",
         "react-scripts": "5.0.1",
-        "task-library": "^0.0.18"
+        "task-library": "^0.1.2"
     },
     "eslintConfig": {
         "extends": [
