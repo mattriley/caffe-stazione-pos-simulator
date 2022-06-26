@@ -27,4 +27,4 @@ The key features designed to alleviate the pain points include:
 
 ## Architecture
 
-<%- moduleGraph() %>
+<%- await compose(c => renderCode(c.mermaid(), 'mermaid')) %>
