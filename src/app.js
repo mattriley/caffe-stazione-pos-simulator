@@ -5,8 +5,9 @@ import compose from './compose.js';
 import loadMenu from './load-menu.js';
 
 const menu = loadMenu();
-const { modules, config } = compose({ configs: [{ menu }] });
-window.app = modules;
+const composition = compose({ configs: [{ menu }] });
+const { config, modules } = composition;
+window.app = composition;
 window.document.title = config.app.name;
 
 const container = document.getElementById('app');
