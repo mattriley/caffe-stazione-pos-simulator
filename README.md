@@ -1,5 +1,10 @@
 # Stazione Simulation
 
+<p align="right">
+    <code>0% cov</code>&nbsp;
+    <code>4370 sloc</code>&nbsp;
+    <code>28 files</code></p>
+
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.
 
 ## Table of Contents

@@ -1,5 +1,7 @@
 # Stazione Simulation
 
+<%- lib.renderMetrics() %>
+
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.
 
 ## Table of Contents
@@ -27,4 +29,4 @@ The key features designed to alleviate the pain points include:
 
 ## Architecture
 
-<%- await compose(c => renderCode(c.mermaid(), 'mermaid')) %>
+<%- await lib.compose(c => lib.renderCode(c.mermaid(), 'mermaid')) %>
