@@ -2,6 +2,7 @@
     "name": "stazione-simulation",
     "version": "0.1.0",
     "description": "A POS item locator side-car application and experiment with PURE COMPONENTS in React.",
+    "homepage": "https://github.com/mattriley/stazione-simulation",
     "private": true,
     "scripts": {
         "start": "react-scripts start",
@@ -24,7 +25,7 @@
         "@testing-library/user-event": "^14.2.1",
         "eslint-plugin-react": "^7.30.1",
         "react-scripts": "5.0.1",
-        "task-library": "^0.3.29"
+        "task-library": "^0.3.31"
     },
     "eslintConfig": {
         "extends": [
