@@ -3,7 +3,9 @@
 <p align="right">
     <code>null% cov</code>&nbsp;
     <code>4370 sloc</code>&nbsp;
-    <code>28 files</code></p>
+    <code>28 files</code>&nbsp;
+    <code>5 deps</code>&nbsp;
+    <code>8 dev deps</code></p>
 
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.
 
