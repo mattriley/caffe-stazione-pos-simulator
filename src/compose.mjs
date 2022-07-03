@@ -1,6 +1,6 @@
 import composer from 'module-composer';
-import modules from './modules/index.js';
-import defaultConfig from './default-config.js';
+import modules from './modules/index.mjs';
+import defaultConfig from './default-config.mjs';
 
 export default ({ configs }) => {
 

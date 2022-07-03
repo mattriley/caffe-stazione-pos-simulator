@@ -1,8 +1,8 @@
 import './app.css';
 import { createRoot } from 'react-dom/client';
 import React from 'react';
-import compose from './compose.js';
-import loadMenu from './load-menu.js';
+import compose from './compose.mjs';
+import loadMenu from './load-menu.mjs';
 
 const menu = loadMenu();
 const composition = compose({ configs: [{ menu }] });

@@ -2,7 +2,6 @@
     "name": "stazione-simulation",
     "version": "0.1.0",
     "private": true,
-    "type": "module",
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
@@ -24,7 +23,7 @@
         "@testing-library/user-event": "^14.2.1",
         "eslint-plugin-react": "^7.30.1",
         "react-scripts": "5.0.1",
-        "task-library": "^0.3.11"
+        "task-library": "^0.3.14"
     },
     "eslintConfig": {
         "extends": [
