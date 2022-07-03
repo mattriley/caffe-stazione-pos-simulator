@@ -1,7 +1,7 @@
 # Stazione Simulation
 
 <p align="right">
-    <code>null% cov</code>&nbsp;
+    <code>0% cov</code>&nbsp;
     <code>4370 sloc</code>&nbsp;
     <code>28 files</code>&nbsp;
     <code>5 deps</code>&nbsp;

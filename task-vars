@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export PROJECT_NAME="Stazione Simulation"
 export INDEXGEN_OPTIONS="--fullySpecified"
 export ESLINT_PATHS=("$SRC")
 

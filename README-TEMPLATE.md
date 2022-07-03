@@ -1,13 +1,4 @@
-# Stazione Simulation
-
-<%- lib.renderMetrics() %>
-
-A POS item locator side-car application and experiment with PURE COMPONENTS in React.
-
-## Table of Contents
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<%- lib.renderOpening() %>
 
 ## Background
 
