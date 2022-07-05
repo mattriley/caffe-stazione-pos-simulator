@@ -1,5 +1,5 @@
 #!/bin/bash
 
 npx parcel build "public/index.html" \
-    --public-url "$PACKAGE_NAME" \
+    --public-url "/$PACKAGE_NAME" \
     --dist-dir "$GITHUB_PAGES_PATH"
