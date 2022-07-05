@@ -2,7 +2,6 @@
     "name": "stazione-simulation",
     "version": "0.1.0",
     "description": "A POS item locator side-car application and experiment with PURE COMPONENTS in React.",
-    "homepage": ".",
     "private": true,
     "scripts": {
         "start": "react-scripts start",
