@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default ({ pureComponents, menuReader }) => () => {
-    console.log(5);
+
     const [searchResults, setSearchResults] = useState(menuReader.searchMenu(''));
     const [selectedItem, setSelectedItem] = useState(undefined);
 
@@ -15,12 +15,11 @@ export default ({ pureComponents, menuReader }) => () => {
         setSelectedItem(item);
         setSearchResults(results);
     };
-    console.log(6);
+
     return <div className="search-screen-container">
         <pureComponents.SearchBar onSearch={onSearch} />
         <pureComponents.SearchResults items={searchResults} onSelection={onSelection} />
         <pureComponents.MenuScreenPath selectedItem={selectedItem} />
     </div>;
-
 
 };
