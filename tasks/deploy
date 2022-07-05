@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf "$GITHUB_PAGES_PATH"
+
 npx parcel build "public/index.html" \
     --public-url "/$PACKAGE_NAME" \
     --dist-dir "$GITHUB_PAGES_PATH"
