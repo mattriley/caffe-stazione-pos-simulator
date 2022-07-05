@@ -1,6 +1,3 @@
 #!/bin/bash
 
-DISABLE_ESLINT_PLUGIN=true PUBLIC_URL=/ npm start
-
-# Reason for PUBLIC_URL=/
-# https://stackoverflow.com/questions/43011207/using-homepage-in-package-json-without-messing-up-paths-for-localhost
+DISABLE_ESLINT_PLUGIN=true npm start
