@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import menu from './menu.json';
+import menu from '../data/menu.json';
 
 const { abbreviations, foodInstructions, beverageInstructions, searchTermReplacements } = menu;
 
