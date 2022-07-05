@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Stazione Simulation/static/css/main.1c7e4b18.css",
-    "main.js": "/Stazione Simulation/static/js/main.d8b01fd5.js",
-    "index.html": "/Stazione Simulation/index.html",
-    "main.1c7e4b18.css.map": "/Stazione Simulation/static/css/main.1c7e4b18.css.map",
-    "main.d8b01fd5.js.map": "/Stazione Simulation/static/js/main.d8b01fd5.js.map"
+    "main.css": "/static/css/main.1c7e4b18.css",
+    "main.js": "/static/js/main.d8b01fd5.js",
+    "index.html": "/index.html",
+    "main.1c7e4b18.css.map": "/static/css/main.1c7e4b18.css.map",
+    "main.d8b01fd5.js.map": "/static/js/main.d8b01fd5.js.map"
   },
   "entrypoints": [
     "static/css/main.1c7e4b18.css",
