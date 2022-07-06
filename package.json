@@ -2,7 +2,7 @@
     "name": "stazione-simulation",
     "version": "0.1.0",
     "description": "A POS item locator side-car application and experiment with PURE COMPONENTS in React.",
-    "homepage": "https://mattriley.github.io/stazione-simulation",
+    "homepage": "https://github.com/mattriley/stazione-simulation",
     "private": true,
     "dependencies": {
         "lodash": "^4.17.21",
