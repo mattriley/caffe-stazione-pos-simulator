@@ -14,9 +14,8 @@ A POS item locator side-car application and experiment with PURE COMPONENTS in R
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-  - [Background](#background)
-  - [Architecture](#architecture)
-- [Create React App frustrations](#create-react-app-frustrations)
+- [Background](#background)
+- [Architecture](#architecture)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -51,7 +50,3 @@ graph TD;
     pureComponents-->util;
     pureComponents-->config;
 ```
-
-# Create React App frustrations
-
-- https://stackoverflow.com/questions/43011207/using-homepage-in-package-json-without-messing-up-paths-for-localhost

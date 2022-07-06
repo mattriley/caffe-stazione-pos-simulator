@@ -21,7 +21,3 @@ The key features designed to alleviate the pain points include:
 ## Architecture
 
 <%- await lib.compose(c => lib.renderCode(c.mermaid(), 'mermaid'), 'src/compose.mjs') %>
-
-# Create React App frustrations
-
-- https://stackoverflow.com/questions/43011207/using-homepage-in-package-json-without-messing-up-paths-for-localhost
