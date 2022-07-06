@@ -4,7 +4,7 @@ export PROJECT_NAME="Stazione Simulation"
 export INDEXGEN_OPTIONS="--fullySpecified"
 export ESLINT_PATHS=("$SRC")
 export README_BASE_URL="https://github.com/mattriley/stazione-simulation"
-export DIST="$GITHUB_PAGES_PATH"
+export DIST_PROD="$GITHUB_PAGES_PATH"
 
 export COV_BRANCHES=0
 export COV_LINES=0
