@@ -2,9 +2,9 @@
 
 <p align="right">
     <code>0% cov</code>&nbsp;
-    <code>4370 sloc</code>&nbsp;
-    <code>28 files</code>&nbsp;
-    <code>5 deps</code>&nbsp;
+    <code>4385 sloc</code>&nbsp;
+    <code>29 files</code>&nbsp;
+    <code>4 deps</code>&nbsp;
     <code>10 dev deps</code></p>
 
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.
@@ -40,7 +40,7 @@ The key features designed to alleviate the pain points include:
 
 ## Architecture
 
-###### <p align="right"><em>Can't see the diagram?</em> <a id="link-1" href="undefined#user-content-link-1">View it on GitHub</a></p>
+###### <p align="right"><em>Can't see the diagram?</em> <a id="link-1" href="https://github.com/mattriley/stazione-simulation#user-content-link-1">View it on GitHub</a></p>
 ```mermaid
 graph TD;
     components-->pureComponents;

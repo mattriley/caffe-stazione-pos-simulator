@@ -19,7 +19,8 @@
         "ecmaVersion": "latest",
         "ecmaFeatures": {
             "jsx": true
-        }
+        },
+        "allowImportExportEverywhere": true
     },
     "rules": {
         "indent": [
