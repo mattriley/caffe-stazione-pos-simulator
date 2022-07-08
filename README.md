@@ -2,7 +2,7 @@
 
 <p align="right">
     <code>0% cov</code>&nbsp;
-    <code>4385 sloc</code>&nbsp;
+    <code>4381 sloc</code>&nbsp;
     <code>29 files</code>&nbsp;
     <code>4 deps</code>&nbsp;
     <code>10 dev deps</code></p>
