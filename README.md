@@ -1,18 +1,19 @@
-# Stazione Simulation
+# stazione-simulation
+
 
 <p align="right">
     <code>0% cov</code>&nbsp;
-    <code>4381 sloc</code>&nbsp;
-    <code>29 files</code>&nbsp;
+    <code>388 sloc</code>&nbsp;
+    <code>27 files</code>&nbsp;
     <code>4 deps</code>&nbsp;
-    <code>10 dev deps</code></p>
+    <code>10 dev deps</code>
+</p>
 
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.
 
-## Table of Contents
-
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
 - [Background](#background)
 - [Architecture](#architecture)
