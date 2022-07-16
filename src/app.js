@@ -8,7 +8,7 @@ const start = async () => {
     const composition = compose({ configs: [{ menu }] });
     const { config, modules } = composition;
     window.app = composition;
-    window.document.title = config.app.name;
+    window.document.title = config.appName;
 
     const container = document.getElementById('app');
     const root = createRoot(container);

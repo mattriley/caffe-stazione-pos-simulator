@@ -1,8 +1,8 @@
 export default ({ config }) => () => {
 
-    return <dev-bar app-name={config.app.name}>
-        <a target="_blank" rel="noreferrer" href={config.app.issues}>Send feedback</a>
-        <a target="_blank" rel="noreferrer" href={config.app.source}>Source code</a>
+    return <dev-bar app-name={config.appName}>
+        <a target="_blank" rel="noreferrer" href={config.issuesUrl}>Send feedback</a>
+        <a target="_blank" rel="noreferrer" href={config.sourceCodeUrl}>Source code</a>
     </dev-bar>;
 
 };

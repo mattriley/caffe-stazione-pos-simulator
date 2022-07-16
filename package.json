@@ -2,23 +2,26 @@
     "name": "stazione-simulation",
     "version": "0.1.0",
     "description": "A POS item locator side-car application and experiment with PURE COMPONENTS in React.",
+    "homepage": "https://github.com/mattriley/stazione-simulation",
+    "repository": "github:mattriley/stazione-simulation",
     "author": {
         "name": "Matt Riley",
         "email": "m@ttriley.dev",
         "url": "https://github.com/mattriley"
     },
-    "homepage": "https://github.com/mattriley/stazione-simulation",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mattriley/stazione-simulation.git"
-    },
     "bugs": {
-        "url": "https://github.com/mattriley/stazione-simulation/issues"
+        "url": "https://github.com/mattriley/stazione-simulation/issues",
+        "email": "m@ttriley.dev"
     },
     "private": true,
+    "scripts": {
+        "test": "npx task test",
+        "start": "npx task start",
+        "deploy": "npx task deploy"
+    },
     "dependencies": {
         "lodash": "^4.17.21",
-        "module-composer": "^0.54.0",
+        "module-composer": "^0.55.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
@@ -32,7 +35,7 @@
         "eslint-plugin-react": "^7.30.1",
         "parcel": "^2.6.2",
         "process": "^0.11.10",
-        "task-library": "^0.5.15"
+        "task-library": "^0.6.5"
     },
     "eslintConfig": {
         "extends": [
