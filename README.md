@@ -1,12 +1,12 @@
-# Stazione Simulation
+# Caffe Stazione Simulation
 
 
 <p align="right">
     <code>0% cov</code>&nbsp;
-    <code>386 sloc</code>&nbsp;
-    <code>27 files</code>&nbsp;
-    <code>4 deps</code>&nbsp;
-    <code>10 dev deps</code>
+    <code>389 sloc</code>&nbsp;
+    <code>26 files</code>&nbsp;
+    <code>0 deps</code>&nbsp;
+    <code>20 dev deps</code>
 </p>
 
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.

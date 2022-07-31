@@ -1,0 +1,22 @@
+{
+    "testEnvironment": "jsdom",
+    "transform": {
+        "^.+\\.*js?$": "babel-jest"
+    },
+    "coverageReporters": [
+        "text-summary",
+        "json-summary",
+        "lcov"
+    ],
+    "testMatch": [
+        "<rootDir>./tests/**/*.test.{js,mjs}"
+    ],
+    "coverageThreshold": {
+        "global": {
+            "branches": "0",
+            "functions": "0",
+            "lines": "0",
+            "statements": "0"
+        }
+    }
+}

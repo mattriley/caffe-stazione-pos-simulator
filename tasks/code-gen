@@ -1,3 +1,3 @@
 #!/bin/bash
 
-node "$TASKS/menu-gen.mjs" < "$DATA/menu.json" > "$STATIC/menu.json"
+node "$TASKS/bin/menu-gen.mjs" < "$DATA/menu.json" > "$STATIC/menu.json"

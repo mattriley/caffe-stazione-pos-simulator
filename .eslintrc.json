@@ -57,5 +57,22 @@
         "react/prop-types": [
             "off"
         ]
-    }
+    },
+    "overrides": [
+        {
+            "files": [
+                "./tests/**/*.test.{js,mjs}"
+            ],
+            "plugins": [
+                "jest"
+            ],
+            "extends": [
+                "plugin:jest/recommended"
+            ],
+            "rules": {
+                "jest/require-top-level-describe": "off",
+                "jest/prefer-expect-assertions": "off"
+            }
+        }
+    ]
 }
