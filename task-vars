@@ -2,7 +2,7 @@
 
 export DISPLAY_NAME="Caffe Stazione Simulation"
 export WEB_HOST_NAME="mattriley.github.io"
-export WEB_BASE_PATH=""
+export WEB_BASE_PATH="/stazione-simulation"
 export INDEXGEN_OPTIONS="--fullySpecified --type esm --filename index.mjs"
 export TEST_RUNNER="jest"
 
