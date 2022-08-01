@@ -2,7 +2,8 @@
     "name": "stazione-simulation",
     "version": "0.1.0",
     "description": "A POS item locator side-car application and experiment with PURE COMPONENTS in React.",
-    "repository": "github:undefined",
+    "homepage": "https://github.com/mattriley/stazione-simulation",
+    "repository": "github:mattriley/stazione-simulation",
     "author": {
         "name": "Matt Riley",
         "email": "m@ttriley.dev",
@@ -41,7 +42,7 @@
         "process": "^0.11.10",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "task-library": "^0.44.0"
+        "task-library": "^0.45.0"
     },
     "browserslist": {
         "production": [
