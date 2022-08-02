@@ -1,4 +1,6 @@
-export default ({ pureComponents, components, menuReader }) => () => {
+export default ({ pureComponents, components, menuReader, mixpanel }) => () => {
+
+    mixpanel.track('pageview');
 
     return <div>
         <pureComponents.DevBar />

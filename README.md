@@ -3,9 +3,9 @@
 
 <p align="right">
     <code>0% cov</code>&nbsp;
-    <code>389 sloc</code>&nbsp;
+    <code>394 sloc</code>&nbsp;
     <code>26 files</code>&nbsp;
-    <code>0 deps</code>&nbsp;
+    <code>1 deps</code>&nbsp;
     <code>20 dev deps</code>
 </p>
 
@@ -45,6 +45,7 @@ The key features designed to alleviate the pain points include:
 graph TD;
     components-->pureComponents;
     components-->menuReader;
+    components-->mixpanel;
     menuReader-->menu;
     menuReader-->util;
     pureComponents-->menuReader;
