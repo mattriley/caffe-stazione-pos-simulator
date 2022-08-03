@@ -3,9 +3,9 @@ import composer from 'module-composer';
 import modules from './modules/index.mjs';
 import defaultConfig from './default-config.mjs';
 
-export default ({ configs }) => {
+export default ({ compositionName, configs }) => {
 
-    const { compose, config } = composer({ ...modules, mixpanel }, { defaultConfig, configs });
+    const { compose, config } = composer({ ...modules, mixpanel }, { compositionName, defaultConfig, configs });
     const { menu } = config;
     const { util } = compose('util');
     const { menuReader } = compose('menuReader', { menu, util });
