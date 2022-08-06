@@ -1,6 +1,6 @@
 # Caffe Stazione Simulation
 
-<p align="right"><code>394 sloc</code>&nbsp;<code>26 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>16 dev deps</code></p>
+<p align="right"><code>395 sloc</code>&nbsp;<code>27 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>16 dev deps</code></p>
 
 A POS item locator side-car application and experiment with PURE COMPONENTS in React.
 
