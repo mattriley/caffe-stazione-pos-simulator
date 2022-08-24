@@ -1,6 +1,5 @@
 #!/bin/bash
 
-export DISPLAY_NAME="Caffe Stazione Simulation"
 export WEB_HOST_NAME="mattriley.github.io"
 export WEB_BASE_PATH="/$(GITHUB_REPO_NAME)"
 export INDEXGEN_OPTIONS="--fullySpecified --type esm --filename index.mjs"
