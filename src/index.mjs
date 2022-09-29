@@ -1,5 +1,5 @@
-// eslint-disable-next-line import/default
-import app from './app.js';
+/* eslint-disable import/no-unresolved */
+import app from './app.mjs';
 import compose from './compose.mjs';
 import defaultConfig from './default-config.mjs';
 import modules from './modules/index.mjs';
