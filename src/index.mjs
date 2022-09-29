@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import app from './app.mjs';
 import compose from './compose.mjs';
 import defaultConfig from './default-config.mjs';
