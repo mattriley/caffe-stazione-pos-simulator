@@ -23,6 +23,8 @@
         "test": "npx task test"
     },
     "dependencies": {
+        "-": "^0.0.1",
+        "d": "^1.0.1",
         "lodash": "^4.17.21",
         "mixpanel-browser": "^2.45.0",
         "module-composer": "^0.84.0",
@@ -49,10 +51,10 @@
         "jest": "^29.1.1",
         "jest-environment-jsdom": "^29.1.1",
         "module-indexgen": "^0.20.0",
-        "npm-check-updates": "^16.3.3",
+        "npm-check-updates": "^16.3.4",
         "parcel": "^2.7.0",
         "process": "^0.11.10",
-        "task-library": "^0.172.0",
+        "task-library": "^0.173.0",
         "testing": "file:./testing"
     },
     "browserslist": {
