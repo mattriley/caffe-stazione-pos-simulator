@@ -2,7 +2,7 @@ import composer from 'module-composer';
 import modules from './modules/index.mjs';
 import defaultConfig from './default-config.mjs';
 
-export default ({ compositionName, configs }) => {
+export default ({ compositionName, configs } = {}) => {
 
     const { compose, config } = composer(modules, { compositionName, defaultConfig, configs });
     const { menu } = config;

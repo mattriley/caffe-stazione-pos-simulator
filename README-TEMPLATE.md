@@ -20,4 +20,4 @@ The key features designed to alleviate the pain points include:
 
 ## Architecture
 
-<%- await lib.renderModuleDiagram('src/compose.mjs') %>
+<%- await lib.renderModuleDiagram() %>
