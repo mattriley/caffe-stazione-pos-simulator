@@ -4,7 +4,6 @@ export WEB_HOST_NAME="mattriley.github.io"
 export WEB_BASE_PATH; WEB_BASE_PATH="/$(GITHUB_REPO_NAME)"
 export INDEXGEN_OPTIONS="--fullySpecified --type esm --filename index.mjs"
 export TEST_RUNNER="jest"
-export ITERMOCIL_LAYOUT="even-vertical"
 
 export COV_BRANCHES=0
 export COV_LINES=0
