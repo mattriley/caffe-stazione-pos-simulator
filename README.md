@@ -1,8 +1,8 @@
-# Stazione Simulation
+# Caffe Stazione Pos Simulator
 
-<p align="right"><code>430 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>23 dev deps</code></p>
+<p align="right"><code>432 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>22 dev deps</code></p>
 
-A POS item locator side-car application and experiment with PURE COMPONENTS in React.
+A POS simulator and experiment with PURE COMPONENTS in React.
 
 <br />
 
@@ -35,18 +35,18 @@ The key features designed to alleviate the pain points include:
 
 ## Architecture
 
-###### <p align="right"><em>Can't see the diagram?</em> <a id="link-1" href="https://github.com/mattriley/stazione-simulation#user-content-link-1">View it on GitHub</a></p>
+###### <p align="right"><em>Can't see the diagram?</em> <a id="link-1" href="https://github.com/mattriley/caffe-stazione-pos-simulator#user-content-link-1">View it on GitHub</a></p>
 ```mermaid
 graph TD;
     components-->pureComponents;
     components-->menuReader;
     components-->io;
-    io-->config;
+    io-->constants;
     menuReader-->menu;
     menuReader-->util;
     pureComponents-->menuReader;
     pureComponents-->util;
-    pureComponents-->config;
+    pureComponents-->constants;
 ```
 <p align="center">
   <em>This diagram was generated with <a href="https://github.com/mattriley/node-module-composer">Module Composer</a></em>

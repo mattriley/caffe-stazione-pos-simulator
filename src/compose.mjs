@@ -2,14 +2,16 @@ import composer from 'module-composer';
 import modules from './modules/index.mjs';
 import defaultConfig from './default-config.mjs';
 
-export default ({ compositionName, configs } = {}) => {
+export default ({ config } = {}) => {
 
-    const { compose, config } = composer(modules, { compositionName, defaultConfig, configs });
-    const { menu } = config;
+    const { configure } = composer(modules);
+    const { compose, constants } = configure(defaultConfig, config);
+
+    const { menu } = constants;
     const { util } = compose('util');
-    const { io } = compose('io', { config });
+    const { io } = compose('io', { constants });
     const { menuReader } = compose('menuReader', { menu, util });
-    const { pureComponents } = compose('pureComponents', { menuReader, util, config });
+    const { pureComponents } = compose('pureComponents', { menuReader, util, constants });
     compose('components', { pureComponents, menuReader, io });
     return compose.end();
 
