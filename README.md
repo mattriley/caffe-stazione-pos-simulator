@@ -1,6 +1,6 @@
 # Caffe Stazione Pos Simulator
 
-<p align="right"><code>432 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>22 dev deps</code></p>
+<p align="right"><code>431 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>22 dev deps</code></p>
 
 A POS simulator and experiment with PURE COMPONENTS in React.
 
@@ -42,8 +42,8 @@ graph TD;
     components-->menuReader;
     components-->io;
     io-->constants;
-    menuReader-->menu;
     menuReader-->util;
+    menuReader-->constants;
     pureComponents-->menuReader;
     pureComponents-->util;
     pureComponents-->constants;
