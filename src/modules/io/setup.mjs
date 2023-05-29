@@ -1,8 +1,8 @@
 import mixpanel from 'mixpanel-browser';
 
-export default ({ constants }) => () => {
+export default ({ config }) => () => {
 
-    mixpanel.init(constants.mixpanelToken, { debug: constants.isTest });
+    mixpanel.init(config.mixpanelToken, { debug: config.isTest });
 
     return { mixpanel };
 

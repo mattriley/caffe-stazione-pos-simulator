@@ -1,8 +1,8 @@
 import _ from 'lodash';
 
-export default ({ constants }) => path => {
+export default ({ config }) => path => {
 
     const fullPath = path.flatMap(p => ['tree', p]);
-    return _.get(constants.menu.tree, fullPath);
+    return _.get(config.menu.tree, fullPath);
 
 };

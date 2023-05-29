@@ -1,8 +1,8 @@
-export default ({ constants }) => term => {
+export default ({ config }) => term => {
 
     const terms = term.split(' ');
 
-    return constants.menu.list.filter(item => {
+    return config.menu.list.filter(item => {
         return terms.every(term => new RegExp(`${term}`, 'i').test(item.searchText));
     });
 };
