@@ -5,7 +5,7 @@ import compose from './compose.mjs';
 
 const start = async () => {
     const menu = await fetch('./menu.json').then(res => res.json());
-    const config = { menu };
+    const config = { menu, mixpanelEnabled: true };
     const { modules } = compose({ config });
     const container = document.getElementById('app');
     const root = createRoot(container);

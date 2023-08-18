@@ -6,5 +6,5 @@ export default {
     issuesUrl: process.env.ISSUES_URL,
     sourceCodeUrl: process.env.SOURCE_CODE_URL,
     mixpanelToken: process.env.MIXPANEL_TOKEN,
-    mixpanelEnabled: true
+    mixpanelEnabled: false
 };

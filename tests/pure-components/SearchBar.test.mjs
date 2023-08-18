@@ -4,8 +4,7 @@ export default ({ test, mock, compose }) => async () => {
 
     await test('callback invoked on search term change', async () => {
         const onSearch = () => mock.fn();
-        const config = { mixpanelEnabled: false };
-        const { SearchBar } = compose({ config }).modules.pureComponents;
+        const { SearchBar } = compose().modules.pureComponents;
         render(<SearchBar onSearch={onSearch} />);
     });
 
