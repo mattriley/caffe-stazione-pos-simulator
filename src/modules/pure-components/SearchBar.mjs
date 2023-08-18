@@ -15,7 +15,7 @@ export default () => ({ onSearch }) => {
             <img src="caffe-stazione.jpg" alt="Caffe Stazione logo" />
         </div>
         <div className="search-box">
-            <input ref={searchInputRef} type="input" onChange={e => onSearch(e.target.value)} autoFocus />
+            <input ref={searchInputRef} type="text" onChange={e => onSearch(e.target.value)} autoFocus />
             <span className="clear" onClick={clear}>🅧</span>
         </div>
         <div></div>
