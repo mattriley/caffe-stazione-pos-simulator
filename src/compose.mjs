@@ -2,7 +2,7 @@ import composer from 'module-composer';
 import modules from './modules/index.mjs';
 import defaultConfig from './default-config.mjs';
 
-export default ({ config }) => {
+export default ({ config } = {}) => {
 
     const { configure } = composer(modules);
     const { compose } = configure(defaultConfig, config);
