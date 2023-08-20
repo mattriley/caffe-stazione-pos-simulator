@@ -16,7 +16,7 @@ export default () => ({ onSearch }) => {
         </div>
         <div className="search-box">
             <input ref={searchInputRef} type="text" onChange={e => onSearch(e.target.value)} autoFocus />
-            <span className="clear" onClick={clear}>🅧</span>
+            <span className="clear" role="button" onClick={clear}>🅧</span>
         </div>
         <div></div>
     </div>;
