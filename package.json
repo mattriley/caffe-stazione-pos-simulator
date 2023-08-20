@@ -27,6 +27,7 @@
         "lodash": "^4.17.21",
         "mixpanel-browser": "^2.47.0",
         "module-composer": "^0.125.0",
+        "process": "^0.11.10",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
@@ -44,7 +45,7 @@
         "doctoc": "^2.2.1",
         "ejs": "^3.1.9",
         "eslint": "^8.47.0",
-        "eslint-plugin-import": "^2.28.0",
+        "eslint-plugin-import": "^2.28.1",
         "eslint-plugin-react": "^7.33.2",
         "global-jsdom": "^9.1.0",
         "husky": "^8.0.3",
@@ -53,7 +54,7 @@
         "module-testrunner": "^0.18.0",
         "npm-check-updates": "^16.12.2",
         "parcel": "^2.9.3",
-        "task-library": "^0.259.0"
+        "task-library": "^0.261.0"
     },
     "browserslist": {
         "production": [

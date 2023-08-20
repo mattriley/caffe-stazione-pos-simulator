@@ -1,6 +1,6 @@
 # Caffe Stazione Pos Simulator
 
-<p align="right"><code>55.55% cov</code>&nbsp;<code>434 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>23 dev deps</code></p>
+<p align="right"><code>55.55% cov</code>&nbsp;<code>434 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>6 deps</code>&nbsp;<code>23 dev deps</code></p>
 
 A POS simulator and experiment with PURE COMPONENTS in React.
 
