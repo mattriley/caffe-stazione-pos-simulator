@@ -16,7 +16,14 @@ As a little side-project, I decided to build a "side-car" application to assist 
 The key features designed to alleviate the pain points include:
 
 1. Ability to search the menu system and present a visualisation highlighting the sequence of button taps required to locate an item
-2. Ability to assign keywords to items
+2. Ability to search using alternate keywords assigned to items
+
+## Tech Stack
+
+- [React](https://react.dev)
+- [Node Test](https://nodejs.org/api/test.html). That's right - React without Jest!
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- 🚫 No State Management library. Higher order component handles state changes via callback.
 
 ## Architecture
 

@@ -1,6 +1,6 @@
 # Caffe Stazione Pos Simulator
 
-<p align="right"><code>55.55% cov</code>&nbsp;<code>434 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>25 dev deps</code></p>
+<p align="right"><code>55.55% cov</code>&nbsp;<code>434 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>5 deps</code>&nbsp;<code>23 dev deps</code></p>
 
 A POS simulator and experiment with PURE COMPONENTS in React.
 
@@ -11,6 +11,7 @@ A POS simulator and experiment with PURE COMPONENTS in React.
 ## Table of Contents
 
 - [Background](#background)
+- [Tech Stack](#tech-stack)
 - [Architecture](#architecture)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -31,7 +32,14 @@ As a little side-project, I decided to build a "side-car" application to assist 
 The key features designed to alleviate the pain points include:
 
 1. Ability to search the menu system and present a visualisation highlighting the sequence of button taps required to locate an item
-2. Ability to assign keywords to items
+2. Ability to search using alternate keywords assigned to items
+
+## Tech Stack
+
+- [React](https://react.dev)
+- [Node Test](https://nodejs.org/api/test.html). That's right - React without Jest!
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- 🚫 No State Management library. Higher order component handles state changes via callback.
 
 ## Architecture
 

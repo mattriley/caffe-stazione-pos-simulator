@@ -45,7 +45,6 @@
         "ejs": "^3.1.9",
         "eslint": "^8.47.0",
         "eslint-plugin-import": "^2.28.0",
-        "eslint-plugin-jest": "^27.2.3",
         "eslint-plugin-react": "^7.33.2",
         "global-jsdom": "^9.1.0",
         "husky": "^8.0.3",
@@ -54,7 +53,6 @@
         "module-testrunner": "^0.18.0",
         "npm-check-updates": "^16.12.2",
         "parcel": "^2.9.3",
-        "process": "^0.11.10",
         "task-library": "^0.259.0"
     },
     "browserslist": {
