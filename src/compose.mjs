@@ -7,10 +7,9 @@ export default ({ config } = {}) => {
     const { configure } = composer(modules);
     const { compose } = configure(defaultConfig, config);
 
-    const { util } = compose('util');
     const { io } = compose('io');
-    const { menuReader } = compose('menuReader', { util });
-    const { pureComponents } = compose('pureComponents', { menuReader, util });
+    const { menuReader } = compose('menuReader');
+    const { pureComponents } = compose('pureComponents', { menuReader });
     compose('components', { pureComponents, menuReader, io });
     return compose.end();
 

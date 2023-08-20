@@ -1,6 +1,8 @@
-export default ({ util }) => selectedItem => {
+import steps from '1up/lib/array/steps.js';
 
-    const selectedPathIncrements = util.inflate(selectedItem.pathArray).map(path => path.join('.'));
+export default () => selectedItem => {
+
+    const selectedPathIncrements = steps(selectedItem.pathArray).map(path => path.join('.'));
 
     return item => {
         return !!selectedPathIncrements.find(path => path === item.pathArray.join('.'));

@@ -1,6 +1,6 @@
 # Caffe Stazione Pos Simulator
 
-<p align="right"><code>55.55% cov</code>&nbsp;<code>434 sloc</code>&nbsp;<code>30 files</code>&nbsp;<code>6 deps</code>&nbsp;<code>23 dev deps</code></p>
+<p align="right"><code>55.75% cov</code>&nbsp;<code>429 sloc</code>&nbsp;<code>28 files</code>&nbsp;<code>7 deps</code>&nbsp;<code>24 dev deps</code></p>
 
 A POS simulator and experiment with PURE COMPONENTS in React.
 
@@ -49,9 +49,7 @@ graph TD;
     components-->pureComponents;
     components-->menuReader;
     components-->io;
-    menuReader-->util;
     pureComponents-->menuReader;
-    pureComponents-->util;
 ```
 <p align="center">
   <em>This diagram was generated with <a href="https://github.com/mattriley/node-module-composer">Module Composer</a></em>

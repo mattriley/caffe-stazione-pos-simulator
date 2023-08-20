@@ -1,8 +1,10 @@
-export default ({ pureComponents, util }) => ({ selectedItem }) => {
+import steps from '1up/lib/array/steps.js';
+
+export default ({ pureComponents }) => ({ selectedItem }) => {
 
     if (!selectedItem) return null;
 
-    const pathIncrements = util.inflate(selectedItem.pathArray);
+    const pathIncrements = steps(selectedItem.pathArray);
 
     const menuScreens = pathIncrements.map(path => {
         return (

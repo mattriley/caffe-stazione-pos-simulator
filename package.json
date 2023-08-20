@@ -24,6 +24,7 @@
         "test": "npx task test"
     },
     "dependencies": {
+        "1up": "^1.3.0",
         "lodash": "^4.17.21",
         "mixpanel-browser": "^2.47.0",
         "module-composer": "^0.125.0",
@@ -33,6 +34,7 @@
     },
     "devDependencies": {
         "@babel/core": "^7.22.10",
+        "@babel/node": "^7.22.10",
         "@babel/preset-env": "^7.22.10",
         "@babel/preset-react": "^7.22.5",
         "@node-loader/babel": "^2.0.1",
@@ -54,7 +56,7 @@
         "module-testrunner": "^0.18.0",
         "npm-check-updates": "^16.12.2",
         "parcel": "^2.9.3",
-        "task-library": "^0.262.0"
+        "task-library": "^0.265.0"
     },
     "browserslist": {
         "production": [
