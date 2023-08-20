@@ -54,7 +54,7 @@
         "module-testrunner": "^0.18.0",
         "npm-check-updates": "^16.12.2",
         "parcel": "^2.9.3",
-        "task-library": "^0.261.0"
+        "task-library": "^0.262.0"
     },
     "browserslist": {
         "production": [
