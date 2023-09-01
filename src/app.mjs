@@ -6,10 +6,10 @@ import compose from './compose.mjs';
 const start = async () => {
     const menu = await fetch('./menu.json').then(res => res.json());
     const config = { menu, mixpanelEnabled: true };
-    const { modules } = compose({ config });
+    const { components } = compose({ config });
     const container = document.getElementById('app');
     const root = createRoot(container);
-    root.render(<React.StrictMode><modules.components.App /></React.StrictMode>);
+    root.render(<React.StrictMode><components.App /></React.StrictMode>);
 };
 
 start();

@@ -5,8 +5,8 @@ export default ({ test, compose, assert }) => () => {
 
     test('entering and clearning a search term', async t => {
         const onSearch = t.mock.fn();
-        const { SearchBar } = compose().modules.pureComponents;
-        render(<SearchBar onSearch={onSearch} />);
+        const { pureComponents } = compose();
+        render(<pureComponents.SearchBar onSearch={onSearch} />);
 
         const searchInput = screen.getByRole('textbox');
         await userEvent.type(searchInput, 'donut');
