@@ -27,7 +27,7 @@
         "1up": "^1.5.0",
         "lodash": "^4.17.21",
         "mixpanel-browser": "^2.47.0",
-        "module-composer": "^0.149.0",
+        "module-composer": "^0.150.0",
         "process": "^0.11.10",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
@@ -53,11 +53,11 @@
         "global-jsdom": "^9.1.0",
         "husky": "^8.0.3",
         "jsdom": "^22.1.0",
-        "module-indexgen": "^0.38.0",
+        "module-indexgen": "^0.39.0",
         "module-testrunner": "^0.20.0",
         "npm-check-updates": "^16.13.2",
         "parcel": "^2.9.3",
-        "task-library": "^0.269.0"
+        "task-library": "^0.270.0"
     },
     "browserslist": {
         "production": [
